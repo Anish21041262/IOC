@@ -1,137 +1,49 @@
-2024-aimp.info
-2024-aimp.pw
-2024aimp.info
-2024aimp.top
-2024concur.com
-2024lexisnexis.com
-a-asana.com
-advanced-ip-scanner.cfd
-advanced-ip-scanner.link
-advanced-ip-scanner.xyz
-advancedipscannerapp.com
-aimp.day
-aimp.link
-aimp.pm
-aimp.xyz
-aimp2024.pw
-airtables.net
-app-trello.com
-as-a-n4.com
-as-an-a.org
-as4na.com
-asaana.net
-asana.pm
-asana.tel
-asana.wf
-asanaa.net
-assana.monster
-assana.vip
-bloomberg-t.com
-c0ncuur.com
-c0oncur.com
-cnn-news.org
-concur-cloud.net
-concur-sap.info
-concur-sap.life
-concur-sap.one
-concur-sap.pro
-concur.cfd
-concur.life
-concur.pm
-concur.re
-concur.skin
-concur2024.com
-concur24news.one
-concurnews.one
-concuur.com
-concuur.net
-concuur.org
-gl-meet2024.com
-law2024.info
-law2024.top
-law360.one
-lexis-nexis.site
-lexis2024.info
-lexis2024.pro
-lexisnex.pro
-lexisnex.team
-lexisnex.top
-lexisnexis.day
-lexisnexis.lat
-lexisnexis.one
-lexisnexis.pro
-lexisnexis.top
-lexisnexis2024.com
-lexisnexises.net
-meet-gl.com
-meet-go.click
-meet-go.day
-meet-go.info
-meet-go.link
-meet-go.org
-meet-goo.net
-meet-goo.org
-meet.com.de
-meet2024.com
-meetgo2024.life
-meetgo2024.top
-news-cnn.net
-newsconcur.one
-newsconcur2024.life
-newsconcur2024.world
-newsconcur24.one
-nmap.re
-quicken-install.com
-sapc0ncur24.one
-sapconcur.pro
-sapconcur.top
-thomsonreuter.info
-thomsonreuter.pro
-wal-streetjournal.com
-wall-street-journal.link
-webex-install.com
-wen-airdrop.net
-wen-airdrop.network
-westlaw.top
-workable.uk.com
-wsj.pm
-wsj.re
-wsj.wales
-wsj.wf
-2024-7zip-10.shop
-2024-7zip-10.top
-2024-7zip.info
-2024-7zip.pw
-20247zip.one
-7-zip.cfd
-7-zip.day
-7-zip.shop
-7zip-1508.one
-7zip-1508.top
-7zip-2024.cfd
-7zip-2024.info
-7zip-2024.pro
-7zip-archiver.click
-7zip-archiver.shop
-7zip-org.live
-7zip.sbs
-7zip10-2024.life
-7zip10-2024.live
-7zip10-2024.top
-7zip1024.life
-7zip1024.live
-7zip1024.top
-7zip2024.info
-7zip2024.one
-7zip2024.pro
-7zip2024.shop
-7zip2024.store
-7zip2024.top
-7zipx.site
-7zlp112024.top
-7zlp2024.shop
-7zlp2024.top
-h2.den4ik440.ru
-seven-zip.click
-sevenzip.shop
-sevenzip.today
+Here’s a refined breakdown of how a typical Dire Wolf ransomware attack unfolds, based on Trustwave SpiderLabs’ analysis ([trustwave.com][1]):
+
+---
+
+### 1. **Malware Delivery & Initial Execution**
+
+The attacker delivers the UPX-packed Dire Wolf binary (often via phishing or exploit). Once on a system, it unpacks and runs, revealing its GoLang-built payload .
+
+### 2. **Singleton & Re‑run Prevention**
+
+On execution, Dire Wolf checks for a marker file (`runfinish.exe`) and a mutex (`Global\direwolfAppMutex`). If found, it self‑deletes and exits to avoid redundant infection ([trustwave.com][1]).
+
+### 3. **Self‑Deletion on Re‑execution Attempts**
+
+If an existing infection is detected, the malware runs `cmd /C timeout /T 3 & del…` to remove itself and terminate, evading detection or disruption ([trustwave.com][1]).
+
+### 4. **Disabling Windows Event Logging**
+
+It continuously terminates the `eventlog` service using PowerShell–WMI queries and `taskkill`, preventing forensic logging of its actions ([trustwave.com][1]).
+
+### 5. **Stopping & Disabling Services**
+
+Dire Wolf targets a predefined list of \~75 services—including antivirus, backups, and databases—halting them via `ControlService` or `sc stop/config` to disrupt recovery ([trustwave.com][1]).
+
+### 6. **Killing Critical Processes**
+
+It then loops through \~59 process names, forcing termination via `taskkill /F /IM`, shutting down security tools, productivity apps, databases, and more ([trustwave.com][1]).
+
+### 7. **Deleting Backups & Logs**
+
+To hinder any rollback or audit trail, it runs `vssadmin delete shadows`, `wbadmin` backup cleanup, disables recovery with `bcdedit`, and clears all Windows event logs with \`wevtutil” ([trustwave.com][1]).
+
+### 8. **File Encryption**
+
+Using Curve25519 and ChaCha20, it encrypts most user files—excluding `.exe`, `.dll`, etc.—appending `.direwolf`, making data inaccessible ([trustwave.com][1]).
+
+### 9. **Ransom Note Drop & Double‑Extortion**
+
+A ransom note with a custom victim room ID, chat login details, and proof-of-exfiltration link appears. This demonstrates file theft and sets up negotiation ([trustwave.com][1]).
+
+### 10. **Cleanup & System Reboot**
+
+Finally, the binary deletes itself and triggers a system reboot, leaving the victim locked out and facing data exposure threats ([trustwave.com][1]).
+
+---
+
+These 10 steps outline a full attack lifecycle: from delivery and stealth (steps 1–3), through discretionary disabling and sabotage (4–7), to encryption, extortion, and system recovery denial (8–10). Let me know if you'd like technical indicators or mitigation tactics!
+
+[1]: https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/dire-wolf-strikes-new-ransomware-group-targeting-global-sectors/?utm_source=chatgpt.com "Dire Wolf Strikes: New Ransomware Group Targeting Global Sectors"
