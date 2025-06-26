@@ -1,47 +1,47 @@
-Here are **10 detailed steps** outlining how the Prometei Linux botnet attack unfolds, based on the Unit 42 analysis and corroborating sources:
-
-1. **Initial Exploitation**
-   Attackers identify and leverage entry points—often via brute‑forcing credentials or exploiting unpatched vulnerabilities like EternalBlue or SMB bugs—to gain access to a Linux host ([unit42.paloaltonetworks.com][1]).
-
-2. **Malware Delivery via HTTP GET**
-   Once access is obtained, the compromised system sends an HTTP GET request to a malicious server (e.g., `hxxp://103.41.204[.]104/k.php?a=x86_64`). This request fetches a custom UPX-packed ELF binary ([unit42.paloaltonetworks.com][1]).
-
-3. **Dynamic Configuration Injection**
-   Each request returns an executable with randomized embedded configuration (including a unique `ParentID`), helping the malware distinguish bots and evade static detection ([securityaffairs.com][2], [unit42.paloaltonetworks.com][1]).
-
-4. **Disguised File Naming & Obfuscation**
-   The payload in disguised PHP-like filenames (`k.php`) is actually a Linux ELF executable. UPX packing is used to compress and obfuscate the malware further, complicating static analysis ([unit42.paloaltonetworks.com][1]).
-
-5. **In-Memory Unpacking**
-   At runtime, the UPX-packed ELF decompresses, loading its payload into memory without writing the full malicious binary to disk—evading many disk-based scanners ([securityaffairs.com][2], [unit42.paloaltonetworks.com][1]).
-
-6. **Backdoor Activation**
-   After unpacking, Prometei initializes a backdoor, enabling module-based capabilities such as C2 communication, mining, lateral movement, and data theft ([unit42.paloaltonetworks.com][1]).
-
-7. **System Reconnaissance**
-   The bot collects host details (CPU, motherboard, uptime, kernel version, OS info) and sends this telemetry via HTTP GET to its C2 infrastructure to customize further actions .
-
-8. **Domain Generation Algorithm (DGA) for C2**
-   To ensure reliable communication even if domains are blacklisted, the malware uses a DGA to periodically compute new C2 domain names, enhancing resilience ([unit42.paloaltonetworks.com][1]).
-
-9. **Self-Updating & Modular Expansion**
-   Modules can be dynamically downloaded and updated (e.g., mining, credential theft). This “self-updating” behavior allows attackers to adapt their goals over time ([unit42.paloaltonetworks.com][1]).
-
-10. **Persistent Cryptocurrency Mining & Data Theft**
-    Finally, the malware establishes persistence (via cron or services), deploys a Monero miner, and may exfiltrate credentials or other data back to the C2—maximizing financial gain ([securityweek.com][3]).
+Here’s a structured breakdown—10 ways these attacks are executed in the African financial sector, each with supporting details:
 
 ---
 
-### 🔍 Summary
+1. **Phishing with HTML smuggling**
+   Attackers send deceptive emails impersonating recruiters or bank staff, embedding HTML files that auto-download ISO payloads. Inside, a VBScript triggers in-memory malware like GuLoader via PowerShell and Registry abuse ([portswigger.net][1]).
 
-* The attack starts with gaining access (credential brute-force or exploiting vulnerabilities).
-* Malware downloads a UPX-packed ELF disguised behind a PHP script name.
-* The payload unpacks itself in memory, initializes a backdoor, and performs system reconnaissance.
-* It uses a DGA and updates itself dynamically, loading modules for mining (Monero), stealing data, and exfiltration.
-* Ultimately, the bot establishes persistence and carries out its monetization objectives.
+2. **Business Email Compromise (BEC)**
+   Groups like SilverTerrier in Nigeria target financial institutions through tailored phishing campaigns using compromised email accounts. They spoof trusted contacts, manipulate payment details, and reroute funds—often exploiting HR or finance channels ([en.wikipedia.org][2]).
 
-Let me know if you’d like to dive into specific modules or mitigation techniques!
+3. **Supply chain compromise**
+   Cybercriminals infiltrate third-party suppliers—e.g., devs on Discord or GitHub—embedding malware in library packages. Compromise cascades when banks download these components, initiating deeper intrusions ([b2bdaily.com][3]).
 
-[1]: https://unit42.paloaltonetworks.com/prometei-botnet-2025-activity/?utm_source=chatgpt.com "Resurgence of the Prometei Botnet"
-[2]: https://securityaffairs.com/179303/cyber-crime/prometei-botnet-activity-has-surged-since-march-2025.html?utm_source=chatgpt.com "Prometei botnet activity has surged since March 2025 - Security Affairs"
-[3]: https://www.securityweek.com/prometei-botnet-activity-spikes/?utm_source=chatgpt.com "Prometei Botnet Activity Spikes - SecurityWeek"
+4. **DNS-based backdoors (Agent Racoon)**
+   Attackers deploy .NET backdoors using DNS covert channels—randomly generated punycode subdomains—to communicate with C2 servers securely, then execute file transfer or command execution. No persistence until scheduled tasks set up ([unit42.paloaltonetworks.com][4]).
+
+5. **Living-off-the-land tactics**
+   Instead of custom malware, attackers abuse native tools like PowerShell, PsExec, RDP, Mimikatz, Cobalt Strike, Ultr\@VNC and legit admin tools to move laterally and evade detection ([security.com][5]).
+
+6. **Information-stealer malware**
+   Stealers like Raccoon, RedLine, Vidar, LummaC2 harvest browser-stored credentials, cookies, financial data, crypto wallets, and history. Stolen logs are either shared freely (UCLs) or sold in underground markets ([intelligentcio.com][6]).
+
+7. **Ransomware-as-a-Service (RaaS)**
+   Attackers use RaaS platforms, enabling novices to execute ransomware campaigns with professional tooling, support, and infrastructure—mainly targeting banks and critical services for high payoff ([b2bdaily.com][3]).
+
+8. **BEC combined with social engineering**
+   Hybrid attacks start with phishing (email/text), then escalate via voice calls masquerading as bank support, pressuring the victim into actions that grant access or share credentials ([ptsecurity.com][7]).
+
+9. **AI-enhanced impersonation and deepfakes**
+   Criminals deploy AI-generated voices or synthetic images/videos to convincingly mimic executives or officials, boosting trust and effectiveness of social-engineering phishing ([unit42.paloaltonetworks.com][8], [www2.kaspersky.com][9]).
+
+10. **Selling access on dark web and underground forums**
+    Initial Access Brokers (IABs) sell network credentials (e.g. admin access for \~\$170–\$300) on underground forums. Other attackers buy access to deploy ransomware, steal data, or move laterally ([intelligentcio.com][6]).
+
+---
+
+These combined TTPs demonstrate a layered, evolving threat: initial compromise via phishing, credential harvesting, lateral moves with existing tools, and deployment of backdoors or ransomware—all supported by underground markets and sophisticated social-engineering aided by AI. Let me know if you’d like to dive deeper on any of these!
+
+[1]: https://portswigger.net/daily-swig/african-banking-sector-targeted-by-malware-based-phishing-campaign?utm_source=chatgpt.com "African banking sector targeted by malware-based phishing campaign | The Daily Swig"
+[2]: https://en.wikipedia.org/wiki/SilverTerrier?utm_source=chatgpt.com "SilverTerrier"
+[3]: https://b2bdaily.com/it/rising-cyberattacks-on-african-infrastructure-highlight-urgent-security-need/?utm_source=chatgpt.com "Rising Cyberattacks on African Infrastructure Highlight Urgent Security Need | B2Bdaily.com"
+[4]: https://unit42.paloaltonetworks.com/new-toolset-targets-middle-east-africa-usa/?utm_source=chatgpt.com "New Tool Set Found Used Against Organizations in the Middle East, Africa and the US"
+[5]: https://www.security.com/threat-intelligence/african-financial-attacks?utm_source=chatgpt.com "West African Financial Institutions Hit by Wave of Attacks | Symantec Enterprise Blogs"
+[6]: https://www.intelligentcio.com/me/2024/02/29/surge-in-ransomware-leaks-and-info-stealers-targeting-middle-east-and-africa/?utm_source=chatgpt.com "Surge in ransomware, leaks and info stealers targeting Middle East and Africa – Intelligent CIO Middle East"
+[7]: https://www.ptsecurity.com/ww-en/analytics/cybersecurity-threatscape-2022-q2/?utm_source=chatgpt.com "Cybersecurity threatscape: Q2 2022"
+[8]: https://unit42.paloaltonetworks.com/2025-ransomware-extortion-trends/?utm_source=chatgpt.com "Extortion and Ransomware Trends January-March 2025"
+[9]: https://www2.kaspersky.com/about/policy-blog/cyberthreat-landscape-in-africa-risks-and-opportunities?utm_source=chatgpt.com "Cyberthreat landscape in Africa: risks and opportunities"
