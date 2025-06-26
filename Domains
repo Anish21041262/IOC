@@ -1,23 +1,41 @@
-3bbe3f42857bbf74424ff4d044027b9c43d3386371decf905a4a1037ad468e2c
-9149ea94f27b7b239156dc62366ee0f85b0497e1a4c6e265c37bedd9a7efc07f
-a41e7a78f0a2c360db5834b4603670c12308ff2b0a9b6aeaa398eeac6d3b3190
-0bb7a473d2b2a3617ca12758c6fbb4e674243daa45c321d53b70df95130e23bc
-14b2c620dc691bf6390aef15965c9587a37ea3d992260f0cbd643a5902f0c65b
-9d9cb28b5938529893ad4156c34c36955aab79c455517796172c4c642b7b4699
-e14b07b67f1a54b02fc6b65fdba3c9e41130f283bfea459afa6bee763d3756f8
-a61092a13155ec8cb2b9cdf2796a1a2a230cfadb3c1fd923443624ec86cb7044
-7e0aa32565167267bce5f9508235f1dacbf78a79b44b852c25d83ed093672ed9
-d81a014332e322ce356a0e2ed11cffddd37148b907f9fdf5db7024e192ed4b70
-d528bcbfef874f19e11bdc5581c47f482c93ff094812b8ee56ea602e2e239b56
-f1919abe7364f64c75a26cff78c3fcc42e5835685301da26b6f73a6029912072
-633f90a3125d0668d3aac564ae5b311416f7576a0a48be4a42d21557f43d2b4f
-bc8b4f4af2e31f715dc1eb173e53e696d89dd10162a27ff5504c993864d36f2f
-9a84929e3d254f189cb334764c9b49571cafcd97a93e627f0502c8a9c303c9a4
-5e4511905484a6dc531fa8f32e0310a8378839048fe6acfeaf4dda2396184997
-e788f829b1a0141a488afb5f82b94f13035623609ca3b83f0c6985919cd9e83b
-2ce8653c59686833272b23cc30235dae915207bf9cdf1d08f6a3348fb3a3e5c1
-831d98404ce5e3e5499b558bb653510c0e9407e4cb2f54157503a0842317a363
-f5614dc9f91659fb956fd18a5b81794bd1e0a0de874b705e11791ae74bb2e533
-aed1b6782cfd70156b99f1b79412a6e80c918a669bc00a6eee5e824840c870c1
-6cfa5f93223db220037840a2798384ccc978641bcec9c118fde704d40480d050
-831d98404ce5e3e5499b558bb653510c0e9407e4cb2f54157503a0842317a363
+Here are **10 key steps** detailing how the LapDogs (ShortLeash) attack is executed. Each point offers a concise overview in 2–3 lines:
+
+---
+
+1. **Initial Access via Unpatched SOHO Devices**
+   Attackers scan for internet-exposed, outdated Linux-based SOHO routers and embedded devices, exploiting vulnerabilities like CVE‑2015‑1548 and CVE‑2017‑17663 to gain entry ([advisory.eventussecurity.com][1]).
+
+2. **Custom Backdoor Installation (ShortLeash)**
+   Once inside, they deploy a bespoke backdoor named “ShortLeash” which grants high‑privileged, root-level access and establishes a persistent foothold ([securityscorecard.com][2]).
+
+3. **Startup Script with Fake Services**
+   A malicious Bash startup script is used to create pseudo-services for persistence, embedding Mandarin developer notes and auto-launching ShortLeash at each boot ([advisory.eventussecurity.com][1]).
+
+4. **Dual-layer Payload Encryption**
+   The backdoor payload is encrypted with two layers to evade detection and thwart forensic analysis, with hardcoded C2 locations embedded in the codebase ([advisory.eventussecurity.com][1]).
+
+5. **Unique Self-Signed TLS Certs for Each Node**
+   ShortLeash generates unique, self-signed TLS certificates per infected node, spoofing metadata to appear legitimate while separating each device’s identity ([securityscorecard.com][2]).
+
+6. **Stealthy C2 Communications Over HTTPS**
+   Infected devices communicate with command-and-control servers over encrypted web protocols, blending C2 traffic into normal HTTPS flows to evade network detection ([advisory.eventussecurity.com][1]).
+
+7. **Operational Relay Box Network Formation**
+   Compromised devices act as “Operational Relay Boxes” (ORBs), routing traffic and obfuscating attacker origins while allowing modular espionage tasks ([securityscorecard.com][2]).
+
+8. **Deferred Tasking & Geographic Clustering**
+   The network shows precise tasking schedules—feeding packets based on certificate dates and node port assignments, often focused regionally in the U.S., Japan, Taiwan, South Korea ([securityscorecard.com][2]).
+
+9. **Data Gathering & Backup for Resilience**
+   The backdoor collects system data, creates backups of critical configurations, and can exfiltrate archives of logs/files later—bolstered by root-level privilege to access everything ([securityscorecard.com][3]).
+
+10. **Long-term Espionage Campaign**
+    LapDogs is built for stealth and endurance, not noise—enabling espionage over months using thousands of nodes globally, all while avoiding typical indicators and remaining operative since Sept 2023 ([securityscorecard.com][2]).
+
+---
+
+These steps outline a methodical, covert, and targeted espionage infrastructure using compromised devices as a flexible, stealthy network. Let me know if you'd like deeper analysis on any step or specific technical IOCs!
+
+[1]: https://advisory.eventussecurity.com/advisory/stealthy-lapdogs-campaign-exploits-orb-network-for-espionage/?utm_source=chatgpt.com "Stealthy LapDogs Campaign Exploits ORB Network for Espionage"
+[2]: https://securityscorecard.com/wp-content/uploads/2025/06/LapDogs-STRIKE-Report-June-2025.pdf?utm_source=chatgpt.com "[PDF] LapDogs, The New ORB in Town - SecurityScorecard"
+[3]: https://securityscorecard.com/blog/?utm_source=chatgpt.com "SecurityScorecard Blog"
