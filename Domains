@@ -1,49 +1,47 @@
-Here’s a refined breakdown of how a typical Dire Wolf ransomware attack unfolds, based on Trustwave SpiderLabs’ analysis ([trustwave.com][1]):
+Here are **10 detailed steps** outlining how the Prometei Linux botnet attack unfolds, based on the Unit 42 analysis and corroborating sources:
+
+1. **Initial Exploitation**
+   Attackers identify and leverage entry points—often via brute‑forcing credentials or exploiting unpatched vulnerabilities like EternalBlue or SMB bugs—to gain access to a Linux host ([unit42.paloaltonetworks.com][1]).
+
+2. **Malware Delivery via HTTP GET**
+   Once access is obtained, the compromised system sends an HTTP GET request to a malicious server (e.g., `hxxp://103.41.204[.]104/k.php?a=x86_64`). This request fetches a custom UPX-packed ELF binary ([unit42.paloaltonetworks.com][1]).
+
+3. **Dynamic Configuration Injection**
+   Each request returns an executable with randomized embedded configuration (including a unique `ParentID`), helping the malware distinguish bots and evade static detection ([securityaffairs.com][2], [unit42.paloaltonetworks.com][1]).
+
+4. **Disguised File Naming & Obfuscation**
+   The payload in disguised PHP-like filenames (`k.php`) is actually a Linux ELF executable. UPX packing is used to compress and obfuscate the malware further, complicating static analysis ([unit42.paloaltonetworks.com][1]).
+
+5. **In-Memory Unpacking**
+   At runtime, the UPX-packed ELF decompresses, loading its payload into memory without writing the full malicious binary to disk—evading many disk-based scanners ([securityaffairs.com][2], [unit42.paloaltonetworks.com][1]).
+
+6. **Backdoor Activation**
+   After unpacking, Prometei initializes a backdoor, enabling module-based capabilities such as C2 communication, mining, lateral movement, and data theft ([unit42.paloaltonetworks.com][1]).
+
+7. **System Reconnaissance**
+   The bot collects host details (CPU, motherboard, uptime, kernel version, OS info) and sends this telemetry via HTTP GET to its C2 infrastructure to customize further actions .
+
+8. **Domain Generation Algorithm (DGA) for C2**
+   To ensure reliable communication even if domains are blacklisted, the malware uses a DGA to periodically compute new C2 domain names, enhancing resilience ([unit42.paloaltonetworks.com][1]).
+
+9. **Self-Updating & Modular Expansion**
+   Modules can be dynamically downloaded and updated (e.g., mining, credential theft). This “self-updating” behavior allows attackers to adapt their goals over time ([unit42.paloaltonetworks.com][1]).
+
+10. **Persistent Cryptocurrency Mining & Data Theft**
+    Finally, the malware establishes persistence (via cron or services), deploys a Monero miner, and may exfiltrate credentials or other data back to the C2—maximizing financial gain ([securityweek.com][3]).
 
 ---
 
-### 1. **Malware Delivery & Initial Execution**
+### 🔍 Summary
 
-The attacker delivers the UPX-packed Dire Wolf binary (often via phishing or exploit). Once on a system, it unpacks and runs, revealing its GoLang-built payload .
+* The attack starts with gaining access (credential brute-force or exploiting vulnerabilities).
+* Malware downloads a UPX-packed ELF disguised behind a PHP script name.
+* The payload unpacks itself in memory, initializes a backdoor, and performs system reconnaissance.
+* It uses a DGA and updates itself dynamically, loading modules for mining (Monero), stealing data, and exfiltration.
+* Ultimately, the bot establishes persistence and carries out its monetization objectives.
 
-### 2. **Singleton & Re‑run Prevention**
+Let me know if you’d like to dive into specific modules or mitigation techniques!
 
-On execution, Dire Wolf checks for a marker file (`runfinish.exe`) and a mutex (`Global\direwolfAppMutex`). If found, it self‑deletes and exits to avoid redundant infection ([trustwave.com][1]).
-
-### 3. **Self‑Deletion on Re‑execution Attempts**
-
-If an existing infection is detected, the malware runs `cmd /C timeout /T 3 & del…` to remove itself and terminate, evading detection or disruption ([trustwave.com][1]).
-
-### 4. **Disabling Windows Event Logging**
-
-It continuously terminates the `eventlog` service using PowerShell–WMI queries and `taskkill`, preventing forensic logging of its actions ([trustwave.com][1]).
-
-### 5. **Stopping & Disabling Services**
-
-Dire Wolf targets a predefined list of \~75 services—including antivirus, backups, and databases—halting them via `ControlService` or `sc stop/config` to disrupt recovery ([trustwave.com][1]).
-
-### 6. **Killing Critical Processes**
-
-It then loops through \~59 process names, forcing termination via `taskkill /F /IM`, shutting down security tools, productivity apps, databases, and more ([trustwave.com][1]).
-
-### 7. **Deleting Backups & Logs**
-
-To hinder any rollback or audit trail, it runs `vssadmin delete shadows`, `wbadmin` backup cleanup, disables recovery with `bcdedit`, and clears all Windows event logs with \`wevtutil” ([trustwave.com][1]).
-
-### 8. **File Encryption**
-
-Using Curve25519 and ChaCha20, it encrypts most user files—excluding `.exe`, `.dll`, etc.—appending `.direwolf`, making data inaccessible ([trustwave.com][1]).
-
-### 9. **Ransom Note Drop & Double‑Extortion**
-
-A ransom note with a custom victim room ID, chat login details, and proof-of-exfiltration link appears. This demonstrates file theft and sets up negotiation ([trustwave.com][1]).
-
-### 10. **Cleanup & System Reboot**
-
-Finally, the binary deletes itself and triggers a system reboot, leaving the victim locked out and facing data exposure threats ([trustwave.com][1]).
-
----
-
-These 10 steps outline a full attack lifecycle: from delivery and stealth (steps 1–3), through discretionary disabling and sabotage (4–7), to encryption, extortion, and system recovery denial (8–10). Let me know if you'd like technical indicators or mitigation tactics!
-
-[1]: https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/dire-wolf-strikes-new-ransomware-group-targeting-global-sectors/?utm_source=chatgpt.com "Dire Wolf Strikes: New Ransomware Group Targeting Global Sectors"
+[1]: https://unit42.paloaltonetworks.com/prometei-botnet-2025-activity/?utm_source=chatgpt.com "Resurgence of the Prometei Botnet"
+[2]: https://securityaffairs.com/179303/cyber-crime/prometei-botnet-activity-has-surged-since-march-2025.html?utm_source=chatgpt.com "Prometei botnet activity has surged since March 2025 - Security Affairs"
+[3]: https://www.securityweek.com/prometei-botnet-activity-spikes/?utm_source=chatgpt.com "Prometei Botnet Activity Spikes - SecurityWeek"
