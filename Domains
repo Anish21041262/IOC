@@ -1,1 +1,43 @@
-https://cybersecuritynews.com/scattered-spider-hackers-aviation/
+Here are **10 steps** outlining how a typical Scattered Spider (UNC3944) attack on an aviation or transportation target unfolds—each in 2–3 concise lines:
+
+---
+
+1. **Target reconnaissance (OSINT gathering)**
+   The attackers start with open-source intelligence to gather detailed info on the organization, staff, IT support roles, and help‑desk procedures. They often mine LinkedIn, company websites, and forums. ([cybersecuritynews.com][1])
+
+2. **Selecting entry point via IT help desk**
+   They identify and zero in on help‑desk personnel as the weakest link—often through carefully researched impersonation profiles. ([bleepingcomputer.com][2])
+
+3. **Impersonation using vishing or phishing**
+   Attackers call (vishing) or email (phishing) help desk, pretending to be locked‑out employees needing urgent access. Their flawless English and cultural familiarity make them convincing. ([cybersecuritynews.com][1])
+
+4. **Bypassing MFA via social engineering**
+   They pressure IT staff to perform MFA resets or to register attacker-controlled devices, undermining security protocols like Windows Hello or SMS-based codes. ([cybersecuritynews.com][1])
+
+5. **SIM‑swap and MFA fatigue techniques**
+   If MFA relies on mobile, they may use SIM-swapping or repeatedly trigger authentication prompts until the legitimate user approves out of annoyance or fatigue. ([cybersecuritynews.com][1])
+
+6. **Account takeover & initial access**
+   Once MFA is bypassed, they log in as internal users or IT staff, often gaining domain-level privileges through the compromised account. ([cybersecuritynews.com][1])
+
+7. **Lateral movement with legitimate tools**
+   Using built-in tools like PowerShell and PsExec, they move across systems ("living off the land") with minimal detection. ([cybersecuritynews.com][1])
+
+8. **Targeting identity infrastructure**
+   They compromise identity systems—Okta, AD, Azure AD—to gain persistence and widespread administrative access across systems. ([cybersecuritynews.com][1])
+
+9. **Data theft & ransomware deployment**
+   Sensitive corporate, passenger, or flight‑related data is exfiltrated and used as leverage, often alongside or before deploying extortion ransomware. ([cybernews.com][3])
+
+10. **Extortion & public disclosure threat**
+    Attackers demand ransom under threat of public leaks, targeting reputation-sensitive sectors like aviation. Authorities (e.g. FBI, Mandiant) often get involved during or post‑incident.&#x20;
+
+---
+
+**🔒 Summary:** Scattered Spider leverages a **social-engineering-first** approach—targeting help desk staff to bypass MFA, then escalates privileges, moves laterally using legitimate tools, and finally steals or encrypts data for extortion. Their attacks are methodical, sector-focused, and increasingly threat to critical industries such as aviation.
+
+Let me know if you’d like more detail on defensives, timelines, or detection indicators!
+
+[1]: https://cybersecuritynews.com/scattered-spider-hackers-attacking-it-support-teams/?utm_source=chatgpt.com "SCATTERED SPIDER Hackers Attacking IT Support Teams and Bypass Multi-Factor Authentication"
+[2]: https://www.bleepingcomputer.com/news/security/scattered-spider-hackers-shift-focus-to-aviation-transportation-firms/?utm_source=chatgpt.com "Scattered Spider hackers shift focus to aviation, transportation firms"
+[3]: https://cybernews.com/security/scattered-spider-ransomware-targets-north-american-airline-industry-hawaiian-airlines/?utm_source=chatgpt.com "Scattered Spider targeting North American airlines, Hawaiian ..."
