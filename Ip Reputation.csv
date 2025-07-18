@@ -1,0 +1,28 @@
+﻿,IOC,Type,VT Malicious,VT Suspicious,Total Engines,Severity %,Microsoft Detection,OTX Pulses,In CIRCL Dataset,Country,State,City,Latitude,Longitude
+0,47.236.159.147,ip_address,3,0,94,3.19,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+1,45.136.38.11,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+2,31.13.69.1,ip_address,0,0,94,0,undetected,0,No,Italy,Sicily,Palermo,38.1302,13.329
+3,47.74.132.1,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+4,47.236.105.209,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+5,95.3.35.138,ip_address,0,0,94,0,undetected,0,No,Turkey,Ankara,Etimesgut,39.9905,32.6955
+6,146.75.122.73,ip_address,0,0,94,0,undetected,0,No,Germany,Hesse,Frankfurt am Main,50.1169,8.6837
+7,148.153.241.206,ip_address,0,0,94,0,undetected,0,No,Singapore,Central Singapore,Singapore,1.29619,103.791
+8,8.219.111.165,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+9,148.153.241.207,ip_address,0,0,94,0,undetected,0,No,Singapore,Central Singapore,Singapore,1.29619,103.791
+10,199.91.190.4,ip_address,0,0,94,0,undetected,1,No,Canada,British Columbia,Vancouver,49.2865,-123.121
+11,148.153.241.211,ip_address,0,0,94,0,undetected,0,No,Singapore,Central Singapore,Singapore,1.29619,103.791
+12,47.245.127.168,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+13,47.245.101.198,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+14,78.101.185.176,ip_address,0,0,94,0,undetected,0,No,Qatar,Baladīyat ad Dawḩah,Doha,25.2925,51.5321
+15,47.236.126.70,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+16,47.245.89.100,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+17,8.219.123.111,ip_address,0,0,94,0,undetected,37,No,Singapore,North West,Singapore,1.35208,103.82
+18,151.193.141.254,ip_address,0,0,94,0,undetected,0,No,United States,Texas,Southlake,32.9826,-97.1609
+19,8.219.133.95,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+20,148.153.241.200,ip_address,0,0,94,0,undetected,0,No,Singapore,Central Singapore,Singapore,1.29619,103.791
+21,8.222.150.94,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+22,47.236.197.47,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+23,8.222.237.253,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+24,148.153.241.205,ip_address,0,0,94,0,undetected,0,No,Singapore,Central Singapore,Singapore,1.29619,103.791
+25,47.245.126.55,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
+26,8.219.67.183,ip_address,0,0,94,0,undetected,0,No,Singapore,North West,Singapore,1.35208,103.82
