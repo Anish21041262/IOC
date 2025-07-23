@@ -1,27 +1,3 @@
-148.153.241.200 
-148.153.241.211
-148.153.241.207
-148.153.241.206
-148.153.241.205
-151.193.141.254
-47.236.126.70
-47.236.159.147
-47.245.126.55
-31.13.69.1
-47.74.132.1
-8.219.67.183
-8.219.133.95
-47.245.101.198
-199.91.190.4
-47.236.105.209
-47.245.127.168
-47.236.197.47
-8.219.111.165
-8.222.237.253
-8.222.150.94
-8.219.123.111
-47.245.89.100
-78.101.185.176
-95.3.35.138
-146.75.122.73
-45.136.38.11
+The first half of 2025 has underscored a pivotal shift in the global ransomware threat landscape. While the volume of ransomware attacks continued to rise, the ecosystem itself experienced significant disruption. Major ransomware-as-a-service (RaaS) groups like RansomHub faced internal fractures, law enforcement pressure, and a growing lack of trust among affiliates. These developments have led to a fragmented threat environment, where smaller, less predictable actors are stepping in to fill the void—often with more aggressive and unconventional tactics.
+ 
+At the same time, organizations are becoming more resilient. Improved backup strategies, refusal to pay ransoms, and increased collaboration with law enforcement have contributed to a notable decline in ransom payments. However, attackers are adapting quickly. The emergence of hybrid threats—combining ransomware with infostealers and data extortion—signals a move toward more complex, multi-stage campaigns. Social engineering techniques like ClickFix and FakeCaptcha have surged, exploiting human error across platforms and operating systems. This evolving threat landscape demands a proactive, intelligence-driven defense strategy that goes beyond traditional perimeter security.
