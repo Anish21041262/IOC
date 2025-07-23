@@ -1,0 +1,61 @@
+﻿,IOC,Type,VT Malicious,VT Suspicious,Total Engines,Severity %,Microsoft Detection,OTX Pulses,In CIRCL Dataset,Country,State,City,Latitude,Longitude
+0,178.175.134.52,ip_address,10,1,94,10.64,undetected,9,No,Moldova,Chișinău Municipality,Chisinau,47.0042,28.8574
+1,cebucafe.net,domain,10,2,94,10.64,undetected,8,No,,,,0,0
+2,31742ab79932af3649189b9287730384215a8dccdf21db50de320da7b3e16bb4,file,0,0,0,0,undetected,5,No,,,,0,0
+3,reverb.8283762152.buzz,domain,10,2,94,10.64,undetected,0,No,,,,0,0
+4,f7b52ee613f8d4e55a69f0b93aa9aa5472e453b0c458c8390db963ff8b0b769c,file,0,0,0,0,undetected,5,No,,,,0,0
+5,146.185.233.96,ip_address,6,1,94,6.38,undetected,12,No,Germany,Hesse,Frankfurt am Main,50.1169,8.6837
+6,83290b2f6e7b3fb1bcfa90ed1e550acaeb85c7dc0cb4476b35818436af9395d2,file,0,0,0,0,undetected,2,No,,,,0,0
+7,59.188.254.21,ip_address,6,1,94,6.38,undetected,9,No,Hong Kong,Yuen Long District,Hung Shui Kiu,22.4316,113.9882
+8,43.255.104.100,ip_address,9,1,94,9.57,undetected,5,No,Thailand,Bangkok,Bangkok,13.8203,100.6647
+9,f88cea311efbd3aaf896dd9527b137ad2bbd29332917b5aadd4c2693b45f893f,file,0,0,0,0,undetected,9,No,,,,0,0
+10,43.254.217.138,ip_address,9,1,94,9.57,undetected,5,No,Hong Kong,Yau Tsim Mong,Mong Kok,22.3205,114.169
+11,47.117.165.166,ip_address,10,1,94,10.64,undetected,9,No,China,Shanghai,Shanghai,31.2222,121.4581
+12,80.66.79.91,ip_address,6,1,94,6.38,undetected,12,No,Moldova,Chișinău Municipality,Chisinau,47.0042,28.8574
+13,f7396835d69675b138d0e2bee9b4ceb0a048bf705cb2f1012f1eee51e406d6e6,file,0,0,0,0,undetected,2,No,,,,0,0
+14,0f383b8f68f3b3c3a18ec778a1150563801b8716c7114432ff51a28fff2963b4,file,0,0,0,0,undetected,9,No,,,,0,0
+15,59.188.69.190,ip_address,5,1,94,5.32,undetected,9,No,Hong Kong,Kwai Tsing,Kwai Chung,22.3702,114.13
+16,43.254.218.69,ip_address,9,1,94,9.57,undetected,5,No,Hong Kong,Yau Tsim Mong,Mong Kok,22.3205,114.169
+17,162.33.177.56,ip_address,9,1,94,9.57,undetected,11,No,United States,Illinois,Chicago,41.8835,-87.6305
+18,ccd1f9844b00059f6e35fdff577ac93048f4d99b18162d3c56cfeb2d72b93ae4,file,0,0,0,0,undetected,9,No,,,,0,0
+19,58.64.193.225,ip_address,5,1,94,5.32,undetected,9,No,Hong Kong,Kwai Tsing,Kwai Chung,22.3702,114.13
+20,8015b6036ecbae1f9e850af6bdf361d7598201cd4d4c55ae334ed72cf17ba94d,file,0,0,0,0,undetected,2,No,,,,0,0
+21,dd832c8e30ed50383495d370836688ee48e95334270cbbce41109594cb0c9fd1,file,0,0,0,0,undetected,5,No,,,,0,0
+22,118.31.18.77,ip_address,10,1,94,10.64,undetected,13,No,China,Zhejiang,Hangzhou,30.2943,120.1663
+23,12d4efe2b21b5053a3a21b49f25a6a4797dc6e9a80d511f29ca67039ba361f63,file,0,0,0,0,undetected,5,No,,,,0,0
+24,cebucfg.org,domain,12,2,94,12.77,undetected,9,No,,,,0,0
+25,158.247.211.51,ip_address,10,1,94,10.64,undetected,7,No,South Korea,Seoul,Seoul,37.5658,126.978
+26,reverb.trustedreverb.rest,domain,1,1,94,1.06,undetected,0,No,,,,0,0
+27,07d8a505492566daeb6174c312a4f7114dc60efcd1d17fef12ca0b8d6303fb2b,file,0,0,0,0,undetected,2,No,,,,0,0
+28,cec655cc4c6bfcbc336d3afc4e5537e619bcf58329d291a51f39b3d3a250e962,file,0,0,0,0,undetected,2,No,,,,0,0
+29,95eee44482b4226efe3739bed3fa6ce7ae7db407c1e82e988f27cd27a31b56a6,file,0,0,0,0,undetected,5,No,,,,0,0
+30,80.66.79.159,ip_address,7,1,94,7.45,undetected,11,No,Moldova,Chișinău Municipality,Chisinau,47.0042,28.8574
+31,194.156.98.155,ip_address,10,1,94,10.64,undetected,9,No,Hong Kong,Eastern,Chai Wan,22.2661,114.247
+32,103.232.223.117,ip_address,5,1,94,5.32,undetected,9,No,Hong Kong,Kwai Tsing,Shek Lei,22.3676,114.137
+33,6b5a75dcc505ac1c065844be27ee6d4693ac51abfc04aaf9bbfc1a06e69a19fd,file,0,0,0,0,undetected,2,No,,,,0,0
+34,162.33.178.196,ip_address,10,1,94,10.64,undetected,9,No,United States,Illinois,Chicago,41.8835,-87.6305
+35,123.60.167.7,ip_address,9,0,94,9.57,undetected,5,No,China,Shanghai,Shanghai,31.2304,121.4737
+36,103.199.16.92,ip_address,10,1,94,10.64,undetected,9,No,Vietnam,Hanoi,Hai BàTrưng,20.9959,105.869
+37,39.106.141.68,ip_address,10,1,94,10.64,undetected,9,No,China,Beijing,Beijing,39.911,116.395
+38,59.188.77.188,ip_address,5,1,94,5.32,undetected,9,No,Hong Kong,Kwai Tsing,Kwai Chung,22.3702,114.13
+39,51.81.42.234,ip_address,11,2,94,11.7,undetected,8,No,United States,Kentucky,Paris,38.2098,-84.253
+40,f4dd0a6594d50012b6b2e3fd578e40a2aa91dae2c2454d04df5c8c9898774da6,file,0,0,0,0,undetected,9,No,,,,0,0
+41,sanel.net.pl,domain,8,1,94,8.51,undetected,5,No,,,,0,0
+42,45.32.127.212,ip_address,8,1,94,8.51,undetected,5,No,Singapore,South West,Singapore,1.32123,103.695
+43,1753fa34babeeee3b20093b72987b7f5e257270f86787c81a556790cb322c747,file,0,0,0,0,undetected,5,No,,,,0,0
+44,b994cbc1b5c905a2b731e47b30718c684521e8ec6afb601afecf30ef573e5153,file,0,0,0,0,undetected,5,No,,,,0,0
+45,ad5f610e8fb4f0d74d5d761532c8c8b2b9e01a2a402ba89389794d15ecca8337,file,0,0,0,0,undetected,2,No,,,,0,0
+46,8d440c5f0eca705c6d27aa4883c9cc4f8711de30fea32342d44a286b362efa9a,file,0,0,0,0,undetected,5,No,,,,0,0
+47,38.14.255.23,ip_address,6,3,94,6.38,undetected,13,No,United States,California,San Jose,37.3388,-121.8916
+48,58.64.193.166,ip_address,8,1,94,8.51,undetected,9,No,Hong Kong,Kwai Tsing,Kwai Chung,22.3702,114.13
+49,146.185.239.45,ip_address,14,2,94,14.89,undetected,12,No,Spain,Madrid,Madrid,40.4168,-3.70379
+50,160.124.251.105,ip_address,8,1,94,8.51,undetected,9,No,South Africa,Gauteng,Pretoria,-25.7635,28.2965
+51,80.66.79.195,ip_address,4,1,94,4.26,undetected,11,No,Moldova,Chișinău Municipality,Chisinau,47.0042,28.8574
+52,149.102.243.100,ip_address,10,1,94,10.64,undetected,9,No,United States,California,Los Angeles,34.0544,-118.244
+53,118.193.240.214,ip_address,5,1,94,5.32,undetected,9,No,China,Shaanxi,Xi'an,34.2658,108.954
+54,d47e35baee57eb692065a2295e3e9de40e4c57dba72cb39f9acb9f564c33b421,file,0,0,0,0,undetected,5,No,,,,0,0
+55,209.141.43.37,ip_address,10,1,94,10.64,undetected,7,No,United States,Nevada,Las Vegas,36.1697,-115.1236
+56,fdf977f0c20e7f42dd620db42d20c561208f85684d3c9efd12499a3549be3826,file,0,0,0,0,undetected,8,No,,,,0,0
+57,cud-senegal.org,domain,14,0,94,14.89,undetected,6,No,,,,0,0
+58,davaotour.net,domain,6,3,94,6.38,undetected,9,No,,,,0,0
+59,103.224.80.102,ip_address,7,1,94,7.45,undetected,9,No,China,Beijing,Haidian,39.9999,116.315
