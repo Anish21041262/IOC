@@ -1,22 +1,37 @@
-API & Cloud Misconfigurations Exploited: 
+As global tensions escalate, cyberspace has become a critical extension of geopolitical conflict. Nation-state actors and hacktivist groups are increasingly leveraging cyber operations to disrupt infrastructure, gather intelligence, and influence public perception. The following points highlight key developments and tactics observed across major conflict zones. 
 
-The BFSI sector recorded 387 breaches in H1 2025, marking a sharp rise in cyber incidents. Attackers exploited exposed APIs, misconfigured cloud services, and vulnerable third-party integrations, highlighting the need for stronger configuration management and API security. These entry points allowed attackers to bypass traditional defenses and access sensitive financial data. 
+Operation Sindoor: 
+
+Following the escalation of tensions on May 7, India witnessed an unprecedented wave of Distributed Denial-of-Service (DDoS) attacks. Hacktivist groups such as AnonSec, Keymous+, and Mr Hamza claimed responsibility for hourly assaults, primarily targeting government portals. Over 75% of these attacks aimed to cripple public access to official services, signaling a coordinated effort to disrupt national stability and digital sovereignty. 
+
+APT 36, also known as Transparent Tribe, is a Pakistan-linked Advanced Persistent Threat group active since 2013. Their operations focus on espionage against Indian military, government, and educational institutions. Using malware like Crimson RAT and CapraRAT, they infiltrate systems to exfiltrate sensitive data, monitor communications, and compromise strategic assets. Their persistent campaigns pose a long-term threat to India's national security infrastructure. 
+
+India’s critical infrastructure including power grids, telecom networks, and healthcare systems is increasingly vulnerable to cyber sabotage. Threat actors deploy ransomware, phishing, and supply chain attacks to disrupt essential services. These multi-vector assaults not only threaten operational continuity but also aim to erode public trust in digital governance and emergency response capabilities. 
+
+In response to rising cyber threats, regional governments and cybersecurity agencies have intensified threat intelligence sharing to improve situational awareness and response coordination. This includes real-time exchange of indicators of compromise (IOCs), tactics, and threat actor profiles. Additionally, efforts have been made to harden critical infrastructure, such as telecom, energy, and defense systems, through enhanced monitoring, patching, and segmentation strategies to reduce attack surfaces. 
+
+Governments and cybersecurity alliances in South Asia are increasingly prioritizing early threat detection through AI-driven analytics, honeypots, and threat hunting operations. Simultaneously, cyber diplomacy is gaining traction, with countries engaging in dialogue to establish norms, share best practices, and collaborate on cross-border incident response. This dual approach strengthens both technical and strategic resilience against evolving cyber threats. 
+
+ 
+
+Iran–Israel: 
+
+The intensifying military engagements between Iran, Israel, and the U.S. have expanded the battlefield into cyberspace. Although large-scale Iranian cyberattacks have not yet surged, the potential for spillover is high. Iranian threat actors may soon ramp up operations targeting Israeli and U.S. interests, aiming to disrupt infrastructure, gather intelligence, and influence public perception. 
+
+Groups like Agonizing Serpens have previously targeted Israeli education and tech sectors with wiper malware and data exfiltration tactics. These attacks are designed not only to steal sensitive data but also to destroy systems and hinder forensic investigations. Such persistent destructive operations are likely to intensify amid ongoing geopolitical tensions. 
+
+Iranian threat actors, including Agent Serpens (CharmingKitten), are increasingly using Generative AI (GenAI) to enhance social engineering. For example, fake documents mimicking reputable organizations like RAND have been used to deliver malware. These tactics reflect a shift toward more sophisticated, AI-enhanced cyber espionage targeting Israeli and Western entities. 
+
+Iranian Advanced Persistent Threat (APT) groups have deployed Layer 7 HTTP flood attacks, which target the application layer of websites to exhaust server resources and disrupt services without needing high traffic volumes. These attacks are stealthier and harder to detect than traditional DDoS methods. Additionally, Iranian actors have used phishing campaigns with QR code redirection, tricking users into scanning malicious codes that lead to credential-harvesting sites or malware downloads. This blend of technical and psychological tactics reflects a growing sophistication in Iran’s cyber arsenal. 
+
+In response to Iranian cyber aggression, Israeli cyber units reportedly launched counter-operations targeting VSAT (Very Small Aperture Terminal) modems, which are used for satellite communications. By exploiting vulnerabilities in the firmware, they were able to disable or disrupt these devices remotely, potentially cutting off critical communication channels used by Iranian forces or affiliated groups. This tactic demonstrates Israel’s strategic use of cyber capabilities to neutralize infrastructure without direct physical confrontation. 
 
  
 
-Credential Stuffing & Phishing Surge: 
- 
-In H1 2025, phishing attacks in the BFSI sector surged by 175%, driven by AI-generated content and advanced social engineering tactics. Attackers used stolen credentials and deceptive emails to target banking and insurance portals, aiming to hijack customer accounts and initiate fraudulent transactions. These incidents highlight the urgent need for multi-factor authentication and employee-customer awareness programs. 
+Russia–Ukraine: 
 
- 
-Ransomware Impact & Regulatory Scrutiny: 
+Russian cyber operations during the Ukraine conflict have included the deployment of wiper malware like WhisperGate and HermeticWiper, aimed at destroying data and crippling Ukrainian systems. These were often paired with DDoS attacks to overwhelm government and media websites. Simultaneously, disinformation campaigns were launched to manipulate public opinion, spread false narratives, and undermine trust in Ukrainian leadership and Western allies. 
 
-Ransomware and data theft incidents significantly impacted BFSI institutions in early 2025, with attackers employing double extortion tactics—encrypting data and threatening to leak it .These breaches led to financial losses and triggered regulatory scrutiny, forcing institutions to strengthen incident response, comply with evolving data protection laws, and rebuild customer trust. 
+Ukraine responded with a strong cyber defense strategy, including the development of custom malware tools for counterintelligence and threat mitigation. The country also leveraged public-private partnerships, collaborating with global tech firms like Microsoft and Google for threat intelligence and infrastructure protection. This hybrid approach significantly enhanced Ukraine’s ability to detect, respond to, and recover from cyberattacks. 
 
- 
-
-Supply Chain Attacks on Fintech Systems: 
-
-Supply chain vulnerabilities were exploited in 41.8% of fintech breaches during H1 2025, with attackers infiltrating third-party vendors and payment processors. These attacks disrupted transaction flows and exposed sensitive customer data. As a result, BFSI organizations are prioritizing vendor risk assessments, continuous monitoring, and secure integration practices. 
-
- 
+Cyber operations in the Russia-Ukraine war have been closely integrated with kinetic military actions. Cyberattacks were used to disrupt battlefield logistics, such as targeting communication networks and satellite systems. These digital strikes often preceded or accompanied physical assaults, demonstrating how cyber capabilities are now a core component of modern warfare strategy, used to weaken enemy coordination and morale. 
