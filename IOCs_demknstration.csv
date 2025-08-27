@@ -1,0 +1,19 @@
+﻿,IOC,Type,VT Malicious,VT Suspicious,Total Engines,Severity %,Microsoft Detection,OTX Pulses,In CIRCL Dataset,Country,State,City,Latitude,Longitude
+0,chipmanconsulting.com,domain,10,1,94,10.64,undetected,2,No,,,,0,0
+1,5.180.221.108,ip_address,2,0,94,2.13,undetected,2,No,United Kingdom,England,London,51.5077,-0.1225
+2,d39e177261ce9a354b4712f820ada3ee8cd84a277f173ecfbd1bf6b100ddb713,file,28,0,76,36.84,,2,No,,,,0,0
+3,kprocurement.com,domain,12,1,94,12.77,undetected,2,No,,,,0,0
+4,https://webmailapp-0e6cff4089a4.herokuapp.com/,url,0,0,0,0,undetected,0,No,,,,0,0
+5,fp40.com,domain,0,0,94,0,undetected,1,No,,,,0,0
+6,trilineconsulting.com,domain,13,1,94,13.83,undetected,2,No,,,,0,0
+7,71dec9789fef835975a209f6bc1a736c4f591e5eeab20bdff63809553085b192,file,26,0,76,34.21,,2,No,,,,0,0
+8,lamyconsulting.com,domain,12,1,94,12.77,undetected,2,No,,,,0,0
+9,83b27e52c420b6132f8034e7a0fd9943b1f4af3bdb06cdbb873c80360e1e5419,file,2,0,76,2.63,,2,No,,,,0,0
+10,https://signflow-e15eda21396d.herokuapp.com/,url,0,0,0,0,undetected,0,No,,,,0,0
+11,185.180.221.108,ip_address,2,0,94,2.13,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+12,e69d8b96b106816cb732190bc6f8c2693aecb6056b8f245e2c15841fcb48ff94,file,27,0,76,35.53,,2,No,,,,0,0
+13,lvprocurement.com,domain,12,1,94,12.77,undetected,2,No,,,,0,0
+14,hancockconsulting.com,domain,12,1,94,12.77,undetected,2,No,,,,0,0
+15,212.83.190.143,ip_address,2,1,94,2.13,undetected,2,No,France,Île-de-France,Paris,48.8558,2.3494
+16,caultonconsulting.com,domain,12,1,94,12.77,undetected,2,No,,,,0,0
+17,universalstudioworksite.com,domain,0,2,94,0,undetected,1,No,,,,0,0
