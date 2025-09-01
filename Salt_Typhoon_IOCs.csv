@@ -1,0 +1,87 @@
+﻿,IOC,Type,VT Malicious,VT Suspicious,Total Engines,Severity %,Microsoft Detection,OTX Pulses,In CIRCL Dataset,Country,State,City,Latitude,Longitude
+0,146.70.79.68,ip_address,3,1,94,3.19,undetected,8,No,Hong Kong,Hong Kong Island,Hong Kong,22.2825,114.162
+1,45.61.132.125,ip_address,9,2,94,9.57,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+2,45.61.133.61,ip_address,4,3,94,4.26,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+3,1.222.84.29,ip_address,1,2,94,1.06,undetected,8,No,South Korea,Gyeonggi-do,Yongin-si,37.3347,127.0717
+4,172.86.80.15,ip_address,4,1,94,4.26,undetected,7,No,Singapore,North West,Singapore,1.35208,103.82
+5,193.43.104.185,ip_address,3,1,94,3.19,undetected,7,No,Germany,Hesse,Limburg,50.3986,8.0795
+6,103.199.17.238,ip_address,1,3,94,1.06,undetected,8,No,Vietnam,Hanoi,Hai BàTrưng,20.9959,105.869
+7,89.41.26.142,ip_address,2,1,94,2.13,undetected,7,No,United States,California,Los Angeles,34.0435,-118.252
+8,23.227.196.22,ip_address,4,2,94,4.26,undetected,9,No,United States,Illinois,Chicago,41.8486,-87.6288
+9,142.171.227.16,ip_address,4,2,94,4.26,undetected,8,No,United States,California,Los Angeles,34.0544,-118.244
+10,45.61.159.25,ip_address,3,1,94,3.19,undetected,7,No,United States,Texas,Dallas,32.7212,-96.6765
+11,146.70.79.81,ip_address,1,1,94,1.06,undetected,8,No,Hong Kong,Hong Kong Island,Hong Kong,22.2825,114.162
+12,45.61.165.157,ip_address,3,2,94,3.19,undetected,7,No,United States,Texas,Dallas,32.7212,-96.6765
+13,104.194.154.222,ip_address,4,1,94,4.26,undetected,8,No,Singapore,North West,Singapore,1.35208,103.82
+14,45.61.154.130,ip_address,3,1,94,3.19,undetected,7,No,United Kingdom,England,London,51.5072,-0.127586
+15,167.88.175.175,ip_address,3,2,94,3.19,undetected,7,No,Singapore,North West,Singapore,1.35208,103.82
+16,45.61.133.157,ip_address,3,1,94,3.19,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+17,167.88.173.158,ip_address,3,1,94,3.19,undetected,7,No,Singapore,North West,Singapore,1.35208,103.82
+18,45.61.151.12,ip_address,6,3,94,6.38,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+19,144.172.79.4,ip_address,4,4,94,4.26,undetected,9,No,United States,Florida,Miami,25.7838,-80.1823
+20,14.143.247.202,ip_address,1,1,94,1.06,undetected,8,No,India,Karnataka,Bengaluru,12.9753,77.591
+21,172.86.108.11,ip_address,3,1,94,3.19,undetected,8,No,United States,New York,Staten Island,40.6063,-74.1774
+22,172.86.102.83,ip_address,3,3,94,3.19,undetected,7,No,United States,New York,Staten Island,40.6032,-74.1819
+23,172.86.124.235,ip_address,6,2,94,6.38,undetected,8,No,United Kingdom,England,London,51.5072,-0.127586
+24,104.194.150.26,ip_address,3,1,94,3.19,undetected,8,No,United States,Wyoming,Sheridan,44.7842,-106.941
+25,193.239.86.132,ip_address,6,2,94,6.38,undetected,7,No,Hong Kong,Kowloon,Hong Kong,22.3193,114.169
+26,172.86.106.39,ip_address,3,3,94,3.19,undetected,8,No,United States,New York,Staten Island,40.6032,-74.1819
+27,212.236.17.237,ip_address,3,1,94,3.19,undetected,8,No,Austria,Vienna,Vienna,48.1535,16.3855
+28,74.48.78.66,ip_address,3,2,94,3.19,undetected,8,No,United States,California,Los Angeles,34.0544,-118.244
+29,103.253.40.199,ip_address,4,1,94,4.26,undetected,8,No,Hong Kong,North,Fanling,22.4932,114.146
+30,103.7.58.162,ip_address,3,2,94,3.19,undetected,8,No,Thailand,Bangkok,On Nut,13.7097,100.627
+31,38.71.99.145,ip_address,4,2,94,4.26,undetected,8,No,United States,Wisconsin,Solon Springs,46.3533,-91.8224
+32,45.59.118.136,ip_address,3,1,94,3.19,undetected,7,No,Luxembourg,Luxembourg,Luxembourg,49.6113,6.1294
+33,172.86.106.15,ip_address,1,1,94,1.06,undetected,8,No,United States,New York,Staten Island,40.6032,-74.1819
+34,85.195.89.94,ip_address,4,1,94,4.26,undetected,7,No,Germany,Hesse,Frankfurt am Main,50.1169,8.6837
+35,63.245.1.13,ip_address,4,1,94,4.26,undetected,8,No,United States,Florida,North Miami Beach,25.9228,-80.1562
+36,167.88.173.58,ip_address,4,2,94,4.26,undetected,7,No,Singapore,North West,Singapore,1.35208,103.82
+37,61.19.148.66,ip_address,3,3,94,3.19,undetected,8,No,Thailand,Bangkok,Samphanthawong,13.7267,100.514
+38,63.245.1.34,ip_address,1,3,94,1.06,undetected,8,No,United States,Florida,North Miami Beach,25.9228,-80.1562
+39,45.61.133.79,ip_address,3,1,94,3.19,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+40,167.88.164.166,ip_address,7,2,94,7.45,undetected,8,No,United States,Texas,Dallas,32.7212,-96.6765
+41,45.146.120.210,ip_address,1,1,94,1.06,undetected,7,No,United States,New York,New York,40.7157,-74
+42,167.88.173.252,ip_address,3,2,94,3.19,undetected,7,No,Singapore,North West,Singapore,1.35208,103.82
+43,91.245.253.99,ip_address,2,4,94,2.13,undetected,8,No,Singapore,Central Singapore,Singapore,1.29645,103.791
+44,91.231.186.227,ip_address,3,1,94,3.19,undetected,8,No,United Kingdom,England,London,51.5123,-0.0909
+45,104.194.153.181,ip_address,3,3,94,3.19,undetected,8,No,Singapore,North West,Singapore,1.35208,103.82
+46,45.125.67.226,ip_address,4,2,94,4.26,undetected,8,No,Hong Kong,North,Fanling,22.4932,114.146
+47,193.239.86.146,ip_address,3,2,94,3.19,undetected,7,No,Hong Kong,Kowloon,Hong Kong,22.3193,114.169
+48,146.70.24.144,ip_address,4,2,94,4.26,undetected,8,No,United States,New York,New York,40.7218,-74.0094
+49,45.125.64.195,ip_address,4,2,94,4.26,undetected,8,No,Hong Kong,North,Fanling,22.4932,114.146
+50,63.141.234.109,ip_address,2,1,94,2.13,undetected,7,No,United States,Missouri,Kansas City,39.0945,-94.5812
+51,45.61.133.77,ip_address,4,1,94,4.26,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+52,74.48.84.119,ip_address,3,1,94,3.19,undetected,9,No,United States,California,Los Angeles,34.0544,-118.244
+53,104.194.154.150,ip_address,5,1,94,5.32,undetected,8,No,Singapore,North West,Singapore,1.35208,103.82
+54,45.61.128.29,ip_address,3,1,94,3.19,undetected,9,No,United States,Nevada,Las Vegas,36.102,-115.1447
+55,104.194.147.15,ip_address,4,2,94,4.26,undetected,7,No,United States,Wyoming,Sheridan,44.7842,-106.941
+56,5.181.132.95,ip_address,3,1,94,3.19,undetected,11,No,Malaysia,Selangor,Cyberjaya,2.9679,101.653
+57,164.82.20.53,ip_address,1,1,94,1.06,undetected,8,No,United States,District of Columbia,Washington,38.8842,-76.9941
+58,89.117.1.147,ip_address,1,1,94,1.06,undetected,8,No,Germany,Brandenburg,Frankfurt (Oder),52.3484,14.5546
+59,167.88.175.231,ip_address,3,1,94,3.19,undetected,7,No,Singapore,North West,Singapore,1.35208,103.82
+60,23.227.199.77,ip_address,4,2,94,4.26,undetected,7,No,United States,Illinois,Chicago,41.8486,-87.6288
+61,172.86.106.234,ip_address,3,1,94,3.19,undetected,8,No,United States,New York,Staten Island,40.6032,-74.1819
+62,193.56.255.210,ip_address,2,2,94,2.13,undetected,27,No,Singapore,Central Singapore,Singapore,1.30139,103.798
+63,45.125.67.144,ip_address,6,1,94,6.38,undetected,15,No,Hong Kong,North,Fanling,22.4932,114.146
+64,172.86.65.145,ip_address,3,1,94,3.19,undetected,7,No,United States,Texas,Dallas,32.7212,-96.6765
+65,45.61.134.223,ip_address,3,1,94,3.19,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+66,190.131.194.90,ip_address,1,1,94,1.06,undetected,8,No,Colombia,Huila Department,Neiva,2.93448,-75.2809
+67,45.59.120.171,ip_address,3,1,94,3.19,undetected,8,No,Luxembourg,Luxembourg,Luxembourg,49.6113,6.1294
+68,45.61.133.31,ip_address,3,1,94,3.19,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+69,172.86.101.123,ip_address,3,1,94,3.19,undetected,7,No,United States,New York,Staten Island,40.6032,-74.1819
+70,103.168.91.231,ip_address,3,1,94,3.19,undetected,8,No,Bangladesh,Dhaka Division,Dhaka,23.8755,90.386
+71,172.86.70.73,ip_address,3,1,94,3.19,undetected,7,No,Germany,Hesse,Frankfurt am Main,50.1218,8.6376
+72,74.48.78.116,ip_address,3,1,94,3.19,undetected,8,No,United States,California,Los Angeles,34.0544,-118.244
+73,45.146.120.213,ip_address,3,2,94,3.19,undetected,7,No,United States,New York,New York,40.7157,-74
+74,45.61.149.200,ip_address,3,1,94,3.19,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+75,45.61.149.62,ip_address,5,2,94,5.32,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+76,59.148.233.250,ip_address,4,3,94,4.26,undetected,9,No,Hong Kong,Kwai Tsing,Kwai Chung,22.3702,114.13
+77,23.227.202.253,ip_address,1,3,94,1.06,undetected,7,No,United States,Florida,Tampa,27.9929,-82.403
+78,104.194.129.137,ip_address,3,1,94,3.19,undetected,7,No,United Kingdom,England,London,51.5072,-0.127586
+79,45.61.134.134,ip_address,3,1,94,3.19,undetected,7,No,United States,Nevada,Las Vegas,36.102,-115.1447
+80,43.254.132.118,ip_address,4,3,94,4.26,undetected,8,No,Thailand,Bangkok,Lat Krabang,13.7234,100.784
+81,144.172.76.213,ip_address,3,3,94,3.19,undetected,8,No,United States,Florida,Miami,25.7838,-80.1823
+82,167.88.172.70,ip_address,4,2,94,4.26,undetected,7,No,Singapore,North West,Singapore,1.35208,103.82
+83,107.189.15.206,ip_address,6,2,94,6.38,undetected,8,No,The Netherlands,North Holland,Zaandam,52.4363,4.8277
+84,37.120.239.52,ip_address,2,2,94,2.13,undetected,7,No,The Netherlands,North Holland,Amsterdam,52.3088,4.94066
+85,89.117.2.39,ip_address,1,1,94,1.06,undetected,8,No,France,Île-de-France,Paris,48.8558,2.3494
