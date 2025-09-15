@@ -1,0 +1,93 @@
+﻿,IOC,Type,VT Malicious,VT Suspicious,Total Engines,Severity %,Microsoft Detection,OTX Pulses,In CIRCL Dataset,Country,State,City,Latitude,Longitude
+0,68.235.46.151,ip_address,1,0,95,1.05,undetected,2,No,United States,Illinois,Chicago,41.871,-87.6289
+1,146.70.189.111,ip_address,0,0,95,0,undetected,0,No,Ireland,Leinster,Dublin,53.331,-6.36252
+2,66.63.167.122,ip_address,0,0,95,0,undetected,2,No,United States,California,Los Angeles,34.0549,-118.243
+3,206.217.206.26,ip_address,1,0,95,1.05,undetected,2,No,United States,Texas,Dallas,32.7797,-96.8022
+4,192.198.82.235,ip_address,5,1,95,5.26,undetected,0,No,United States,North Carolina,Lenoir,35.9188,-81.5403
+5,20.190.130.40,ip_address,0,0,95,0,undetected,0,No,United States,Virginia,Boydton,36.677696,-78.37471
+6,141.98.252.189,ip_address,0,0,95,0,undetected,0,No,United Kingdom,England,Stepney,51.518,-0.0459
+7,23.234.69.167,ip_address,1,0,95,1.05,undetected,0,No,United States,Massachusetts,Topsfield,42.6376,-70.9495
+8,13.67.175.79,ip_address,0,0,95,0,undetected,0,No,United States,Iowa,Des Moines,41.5908,-93.6208
+9,198.54.133.123,ip_address,2,0,95,2.11,undetected,0,No,United States,Arizona,Phoenix,33.4413,-112.0421
+10,208.131.130.53,ip_address,2,0,95,2.11,undetected,1,No,United States,Ohio,Mason,39.3601,-84.3099
+11,185.141.119.138,ip_address,2,0,95,2.11,undetected,2,No,United States,Michigan,Detroit,42.4091,-83.0038
+12,185.141.119.166,ip_address,2,0,95,2.11,undetected,1,No,United States,Michigan,Detroit,42.4091,-83.0038
+13,23.94.126.63,ip_address,5,0,95,5.26,undetected,0,No,United States,New Jersey,Piscataway,40.5511,-74.4606
+14,96.44.191.157,ip_address,1,0,95,1.05,undetected,2,No,United States,California,Los Angeles,34.0544,-118.244
+15,198.44.129.56,ip_address,2,0,95,2.11,undetected,3,No,United States,California,Los Angeles,34.0515,-118.2707
+16,206.217.206.104,ip_address,1,0,95,1.05,undetected,3,No,United States,Texas,Dallas,32.7797,-96.8022
+17,72.5.42.72,ip_address,8,1,95,8.42,undetected,1,No,Romania,București,Bucharest,44.4268,26.1025
+18,23.145.40.165,ip_address,0,0,95,0,undetected,0,No,United States,California,Fremont,37.5625,-122.0004
+19,146.70.211.55,ip_address,2,0,95,2.11,undetected,0,No,United States,Texas,Dallas,32.7767,-96.797
+20,185.141.119.151,ip_address,1,0,95,1.05,undetected,2,No,United States,Michigan,Detroit,42.4091,-83.0038
+21,198.244.224.200,ip_address,4,0,95,4.21,undetected,0,No,United Kingdom,England,London,51.5081,-0.1278
+22,146.70.173.60,ip_address,0,0,95,0,undetected,0,No,United States,California,Los Angeles,34.0522,-118.244
+23,87.120.112.134,ip_address,1,1,95,1.05,undetected,0,No,France,Île-de-France,Paris,48.8575,2.35138
+24,208.131.130.71,ip_address,2,0,95,2.11,undetected,2,No,United States,Ohio,Mason,39.3601,-84.3099
+25,104.193.135.221,ip_address,0,0,95,0,undetected,0,No,Canada,British Columbia,Vancouver,49.2476,-123.1234
+26,146.70.211.119,ip_address,1,0,95,1.05,undetected,0,No,United States,Texas,Dallas,32.7767,-96.797
+27,185.141.119.136,ip_address,1,0,95,1.05,undetected,3,No,United States,Michigan,Detroit,42.4091,-83.0038
+28,146.70.211.183,ip_address,1,0,95,1.05,undetected,0,No,United States,Texas,Dallas,32.7767,-96.797
+29,206.217.206.14,ip_address,2,0,95,2.11,undetected,2,No,United States,Texas,Dallas,32.7797,-96.8022
+30,96.44.191.141,ip_address,0,0,95,0,undetected,8,No,United States,California,Los Angeles,34.0544,-118.244
+31,163.5.149.152,ip_address,5,0,95,5.26,undetected,0,No,Germany,Hesse,Limburg an der Lahn,50.3847,8.0475
+32,149.22.81.201,ip_address,3,0,95,3.16,undetected,0,No,Canada,British Columbia,Vancouver,49.2476,-123.1234
+33,185.141.119.181,ip_address,1,0,95,1.05,undetected,1,No,United States,Michigan,Detroit,42.4091,-83.0038
+34,23.145.40.167,ip_address,0,0,95,0,undetected,0,No,United States,California,Fremont,37.5625,-122.0004
+35,31.58.169.85,ip_address,0,0,95,0,undetected,0,No,United States,California,Los Angeles,34.0544,-118.244
+36,185.141.119.184,ip_address,1,0,95,1.05,undetected,1,No,United States,Michigan,Detroit,42.4091,-83.0038
+37,37.19.200.167,ip_address,1,0,95,1.05,undetected,3,No,United States,Texas,Dallas,32.7797,-96.8022
+38,69.246.124.204,ip_address,0,0,95,0,undetected,0,No,United States,Tennessee,Memphis,35.1128,-89.9085
+39,146.70.189.47,ip_address,0,0,95,0,undetected,0,No,Ireland,Leinster,Dublin,53.331,-6.36252
+40,206.217.206.124,ip_address,2,0,95,2.11,undetected,2,No,United States,Texas,Dallas,32.7797,-96.8022
+41,198.54.130.108,ip_address,1,0,95,1.05,undetected,2,No,United States,North Carolina,Raleigh,35.7704,-78.6293
+42,79.127.217.44,ip_address,5,0,95,5.26,undetected,11,No,United States,California,San Jose,37.3388,-121.8916
+43,37.19.221.179,ip_address,1,2,95,1.05,undetected,6,No,United States,Texas,Houston,29.7539,-95.359
+44,146.70.185.47,ip_address,0,0,95,0,undetected,2,No,United States,New York,New York,40.7218,-74.0094
+45,146.70.165.47,ip_address,1,0,95,1.05,undetected,3,No,United States,New York,New York,40.7218,-74.0094
+46,146.70.198.112,ip_address,0,0,95,0,undetected,1,No,Canada,Quebec,Montreal,45.4993,-73.5661
+47,191.96.207.201,ip_address,8,0,95,8.42,undetected,0,No,The Netherlands,Limburg,Kerkrade,50.8699,6.0621
+48,51.89.240.10,ip_address,7,0,95,7.37,undetected,0,No,United Kingdom,England,London,51.5081,-0.1278
+49,37.19.200.154,ip_address,1,0,95,1.05,undetected,3,No,United States,Texas,Dallas,32.7797,-96.8022
+50,146.70.168.239,ip_address,1,0,95,1.05,undetected,4,No,United States,Massachusetts,Gloucester,42.6141,-70.6631
+51,208.131.130.91,ip_address,2,1,95,2.11,undetected,3,No,United States,Ohio,Mason,39.3601,-84.3099
+52,185.141.119.168,ip_address,2,0,95,2.11,undetected,2,No,United States,Michigan,Detroit,42.4091,-83.0038
+53,205.234.181.14,ip_address,0,0,95,0,undetected,0,No,United States,New Jersey,Edison,40.5237,-74.4151
+54,96.44.189.109,ip_address,1,1,95,1.05,undetected,2,No,United States,California,Los Angeles,34.0544,-118.244
+55,64.94.84.78,ip_address,0,0,95,0,undetected,0,No,United States,Texas,Dallas,32.7797,-96.8022
+56,20.190.157.160,ip_address,0,0,95,0,undetected,0,No,United States,Texas,San Antonio,29.4167,-98.5
+57,185.209.199.56,ip_address,0,1,95,0,undetected,0,No,Sweden,Västra Götaland County,Gothenburg,57.7089,11.9746
+58,23.162.8.66,ip_address,0,0,95,0,undetected,0,No,United States,Kentucky,Richmond,37.7479,-84.2946
+59,83.147.52.41,ip_address,0,0,95,0,undetected,0,No,United States,New Jersey,Edison,40.5237,-74.4151
+60,147.161.173.90,ip_address,0,0,95,0,undetected,0,No,The Netherlands,North Holland,Amsterdam,52.3716,4.8883
+61,64.95.84.159,ip_address,0,0,95,0,undetected,0,No,United States,Washington,Seattle,47.4815,-122.246
+62,37.19.200.132,ip_address,1,0,95,1.05,undetected,7,No,United States,Texas,Dallas,32.7797,-96.8022
+63,195.54.130.100,ip_address,0,0,95,0,undetected,0,No,Sweden,Stockholm County,Sundbyberg,59.3622,17.9643
+64,37.19.200.141,ip_address,2,0,95,2.11,undetected,4,No,United States,Texas,Dallas,32.7797,-96.8022
+65,31.58.169.92,ip_address,3,0,95,3.16,undetected,0,No,United States,California,Los Angeles,34.0544,-118.244
+66,23.145.40.99,ip_address,3,0,95,3.16,undetected,0,No,United States,California,Fremont,37.5625,-122.0004
+67,198.44.129.88,ip_address,1,0,95,1.05,undetected,4,No,United States,California,Los Angeles,34.0515,-118.2707
+68,35.186.181.1,ip_address,0,0,95,0,undetected,0,No,United States,"Washington, D.C.",Washington,38.9071,-77.0368
+69,68.235.46.208,ip_address,1,0,95,1.05,undetected,3,No,United States,Illinois,Chicago,41.871,-87.6289
+70,196.251.83.162,ip_address,15,0,95,15.79,undetected,5,No,Germany,Hesse,Frankfurt am Main,50.1109,8.68213
+71,151.242.41.182,ip_address,0,0,95,0,undetected,0,No,United States,New Jersey,Jersey City,40.7308,-74.0789
+72,68.63.167.122,ip_address,0,0,95,0,undetected,0,No,United States,Tennessee,Knoxville,35.9375,-84.073
+73,68.235.46.22,ip_address,1,0,95,1.05,undetected,5,No,United States,Illinois,Chicago,41.871,-87.6289
+74,94.156.167.237,ip_address,8,0,95,8.42,undetected,0,No,The Netherlands,North Holland,Amsterdam,52.3676,4.90414
+75,67.217.228.216,ip_address,0,0,95,0,undetected,0,No,United States,California,Los Angeles,34.0515,-118.2707
+76,68.235.43.202,ip_address,0,0,95,0,undetected,0,No,United States,Illinois,Chicago,41.871,-87.6289
+77,206.217.206.25,ip_address,1,0,95,1.05,undetected,3,No,United States,Texas,Dallas,32.7797,-96.8022
+78,206.217.206.64,ip_address,2,0,95,2.11,undetected,1,No,United States,Texas,Dallas,32.7797,-96.8022
+79,64.95.11.225,ip_address,0,0,95,0,undetected,0,No,United States,Texas,Dallas,32.7797,-96.8022
+80,68.235.46.202,ip_address,1,2,95,1.05,undetected,4,No,United States,Illinois,Chicago,41.871,-87.6289
+81,151.242.58.76,ip_address,6,0,95,6.32,undetected,0,No,United States,New Jersey,Jersey City,40.7308,-74.0789
+82,20.190.151.38,ip_address,0,0,95,0,undetected,0,No,United States,Virginia,Boydton,36.677696,-78.37471
+83,31.58.169.96,ip_address,2,0,95,2.11,undetected,0,No,United States,California,Los Angeles,34.0544,-118.244
+84,34.86.51.128,ip_address,0,0,95,0,undetected,0,No,United States,"Washington, D.C.",Washington,38.9071,-77.0368
+85,38.22.104.226,ip_address,5,0,95,5.26,undetected,0,No,Canada,Quebec,Verdun,45.4579,-73.5493
+86,185.141.119.185,ip_address,2,0,95,2.11,undetected,3,No,United States,Michigan,Detroit,42.4091,-83.0038
+87,206.217.206.84,ip_address,2,0,95,2.11,undetected,2,No,United States,Texas,Dallas,32.7797,-96.8022
+88,198.54.130.100,ip_address,0,0,95,0,undetected,0,No,United States,North Carolina,Raleigh,35.7704,-78.6293
+89,20.190.157.98,ip_address,0,0,95,0,undetected,0,No,United States,Texas,San Antonio,29.4167,-98.5
+90,104.223.118.62,ip_address,0,0,95,0,undetected,4,No,United States,California,Los Angeles,34.0549,-118.243
+91,45.83.220.206,ip_address,6,3,95,6.32,undetected,50,No,Sweden,Skåne County,Malmo,55.6078,12.9982
