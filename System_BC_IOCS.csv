@@ -1,0 +1,179 @@
+﻿,IOC,Type,VT Malicious,VT Suspicious,Total Engines,Severity %,Microsoft Detection,OTX Pulses,In CIRCL Dataset,Country,State,City,Latitude,Longitude
+0,176.46.138.234,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+1,109.236.93.65,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+2,104.250.164.250,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+3,176.46.138.229,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+4,213.227.128.161,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,North Holland,Amsterdam,52.3667,4.89454
+5,185.25.48.96,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+6,104.250.164.233,ip_address,6,2,95,6.32,undetected,2,No,United Kingdom,England,Manchester,53.4907,-2.24024
+7,185.93.89.164,ip_address,5,3,95,5.26,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+8,104.250.164.222,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+9,honipsiops.in104.250.164.214,domain,0,0,0,0,undetected,0,No,,,,0,0
+10,185.64.105.182,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+11,109.236.93.67,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+12,176.46.138.227,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+13,104.250.164.245,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+14,89.39.149.231,ip_address,1,0,95,1.05,undetected,2,No,Romania,Galați County,Galati,45.4334,28.0547
+15,185.93.89.187,ip_address,6,3,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+16,185.93.89.143,ip_address,8,2,95,8.42,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+17,185.93.89.168,ip_address,7,3,95,7.37,undetected,2,No,United Kingdom,England,London,51.5072,-0.127586
+18,85.206.167.139,ip_address,1,1,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+19,85.206.160.225,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+20,185.64.104.124,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+21,85.206.167.143,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+22,185.25.48.197,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+23,85.206.160.226,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+24,185.64.106.148,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+25,185.25.48.49,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+26,185.93.89.159,ip_address,5,2,95,5.26,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+27,176.46.138.219,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+28,176.46.138.241,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+29,185.93.89.179,ip_address,6,2,95,6.32,undetected,5,No,United Kingdom,England,London,51.5072,-0.127586
+30,85.206.167.133,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+31,85.206.167.149,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+32,176.46.138.207,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+33,185.93.89.177,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+34,176.46.138.216,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+35,176.46.138.208,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+36,89.39.149.227,ip_address,1,0,95,1.05,undetected,2,No,Romania,Galați County,Galati,45.4334,28.0547
+37,185.64.104.45,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+38,176.46.138.226,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+39,185.93.89.158,ip_address,6,3,95,6.32,undetected,2,No,United Kingdom,England,London,51.5072,-0.127586
+40,104.250.164.230,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+41,185.64.105.12,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+42,176.46.138.215,ip_address,8,2,95,8.42,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+43,104.250.164.254,ip_address,8,2,95,8.42,undetected,2,No,United Kingdom,England,Manchester,53.4907,-2.24024
+44,109.236.93.63,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+45,104.250.164.235,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+46,176.46.138.217,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+47,176.46.138.239,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+48,109.236.93.68,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+49,185.93.89.171,ip_address,9,2,95,9.47,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+50,185.64.106.147,ip_address,1,0,95,1.05,undetected,4,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+51,176.46.138.211,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+52,185.93.89.174,ip_address,8,2,95,8.42,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+53,185.93.89.188,ip_address,7,1,95,7.37,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+54,176.46.138.228,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+55,104.250.164.221,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+56,185.93.89.182,ip_address,7,3,95,7.37,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+57,185.93.89.181,ip_address,8,2,95,8.42,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+58,85.206.167.134,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+59,85.206.167.140,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+60,185.25.48.97,ip_address,1,1,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+61,honipsiops.in,domain,0,0,95,0,undetected,2,No,,,,0,0
+62,176.46.138.235,ip_address,7,2,95,7.37,undetected,2,No,United States,Washington,Redmond,47.6694,-122.122
+63,104.250.164.224,ip_address,7,1,95,7.37,undetected,2,No,United Kingdom,England,Manchester,53.4907,-2.24024
+64,185.93.89.149,ip_address,7,3,95,7.37,undetected,2,No,United Kingdom,England,London,51.5072,-0.127586
+65,185.93.89.152,ip_address,6,3,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+66,104.250.164.227,ip_address,6,1,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+67,104.250.164.223,ip_address,8,2,95,8.42,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+68,185.64.106.186,ip_address,1,1,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+69,85.206.160.250,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+70,185.25.49.181,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+71,185.25.49.220,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+72,185.25.48.102,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+73,85.206.167.138,ip_address,1,1,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+74,104.250.164.226,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+75,185.93.89.176,ip_address,6,3,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+76,85.206.167.142,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+77,185.64.104.68,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+78,185.64.106.189,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+79,185.25.49.183,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+80,185.93.89.144,ip_address,6,3,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+81,185.93.89.191,ip_address,8,3,95,8.42,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+82,104.250.164.228,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+83,176.46.138.233,ip_address,7,2,95,7.37,undetected,2,No,United States,Washington,Redmond,47.6694,-122.122
+84,89.39.149.228,ip_address,1,0,95,1.05,undetected,2,No,Romania,Galați County,Galati,45.4334,28.0547
+85,185.93.89.189,ip_address,7,2,95,7.37,undetected,2,No,United Kingdom,England,London,51.5072,-0.127586
+86,176.46.138.237,ip_address,8,2,95,8.42,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+87,93.190.139.34,ip_address,1,1,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+88,85.206.167.146,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+89,85.206.160.115,ip_address,2,0,95,2.11,undetected,50,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+90,185.64.104.44,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+91,176.46.138.222,ip_address,8,2,95,8.42,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+92,185.25.48.104,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+93,85.206.167.135,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+94,109.236.93.61,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+95,185.64.104.55,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+96,104.250.164.241,ip_address,8,2,95,8.42,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+97,109.236.93.66,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+98,176.46.138.209,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+99,185.93.89.169,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+100,212.8.252.59,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Rotterdam,51.9235,4.4813
+101,85.206.160.65,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+102,185.93.89.145,ip_address,8,2,95,8.42,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+103,185.93.89.147,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+104,176.46.138.220,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+105,185.25.49.180,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+106,176.46.138.223,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+107,85.206.167.144,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+108,109.236.93.62,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+109,104.250.164.240,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+110,85.206.167.136,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+111,185.93.89.165,ip_address,4,4,95,4.21,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+112,185.93.89.155,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+113,104.250.164.229,ip_address,7,2,95,7.37,undetected,2,No,United Kingdom,England,Manchester,53.4907,-2.24024
+114,104.250.164.238,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+115,185.93.89.157,ip_address,6,3,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+116,185.64.104.69,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+117,104.250.164.251,ip_address,6,1,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+118,185.93.89.163,ip_address,6,4,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+119,185.64.104.132,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+120,185.93.89.172,ip_address,8,1,95,8.42,undetected,2,No,United Kingdom,England,London,51.5072,-0.127586
+121,185.93.89.146,ip_address,6,2,95,6.32,undetected,2,No,United Kingdom,England,London,51.5072,-0.127586
+122,104.250.164.242,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+123,185.64.106.97,ip_address,2,0,95,2.11,undetected,3,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+124,89.39.149.230,ip_address,1,0,95,1.05,undetected,2,No,Romania,Galați County,Galati,45.4334,28.0547
+125,185.25.48.95,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+126,185.64.104.125,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+127,185.25.49.182,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+128,185.93.89.162,ip_address,8,1,95,8.42,undetected,3,No,United Kingdom,England,London,51.5072,-0.127586
+129,85.206.160.66,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+130,104.250.164.239,ip_address,6,2,95,6.32,undetected,2,No,United Kingdom,England,Manchester,53.4907,-2.24024
+131,176.46.138.221,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+132,176.46.138.213,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+133,185.93.89.151,ip_address,7,3,95,7.37,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+134,104.250.164.253,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+135,185.93.89.180,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+136,185.64.104.54,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+137,185.93.89.170,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+138,109.236.93.60,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+139,176.46.138.240,ip_address,6,4,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+140,176.46.138.232,ip_address,7,2,95,7.37,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+141,104.250.164.246,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+142,85.206.167.147,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+143,185.64.105.8,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+144,104.250.164.236,ip_address,8,2,95,8.42,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+145,104.250.164.234,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+146,85.206.167.132,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+147,104.250.164.244,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+148,85.206.160.116,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+149,185.93.89.153,ip_address,7,2,95,7.37,undetected,2,No,United Kingdom,England,London,51.5072,-0.127586
+150,185.93.89.150,ip_address,6,3,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+151,104.250.164.214,ip_address,10,2,95,10.53,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+152,176.46.138.210,ip_address,6,2,95,6.32,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+153,185.93.89.178,ip_address,8,3,95,8.42,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+154,85.206.160.13,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+155,213.227.128.162,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,North Holland,Amsterdam,52.3667,4.89454
+156,185.93.89.156,ip_address,6,3,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+157,104.250.164.248,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+158,185.93.89.166,ip_address,6,3,95,6.32,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+159,93.190.139.74,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Naaldwijk,51.9968,4.2057
+160,176.46.138.225,ip_address,8,2,95,8.42,undetected,4,No,United States,Washington,Redmond,47.6694,-122.122
+161,85.206.167.137,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+162,104.250.164.247,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+163,212.8.252.56,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,South Holland,Rotterdam,51.9235,4.4813
+164,185.64.104.131,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+165,185.25.49.221,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+166,185.93.89.190,ip_address,8,2,95,8.42,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+167,213.227.128.153,ip_address,1,0,95,1.05,undetected,2,No,The Netherlands,North Holland,Amsterdam,52.3667,4.89454
+168,185.64.105.183,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+169,185.93.89.175,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+170,185.25.49.229,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+171,85.206.167.148,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+172,185.93.89.183,ip_address,7,3,95,7.37,undetected,4,No,United Kingdom,England,London,51.5072,-0.127586
+173,104.250.164.220,ip_address,7,2,95,7.37,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+174,185.64.106.94,ip_address,2,0,95,2.11,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9349,23.3137
+175,104.250.164.252,ip_address,6,2,95,6.32,undetected,4,No,United Kingdom,England,Manchester,53.4907,-2.24024
+176,85.206.167.145,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
+177,85.206.167.141,ip_address,1,0,95,1.05,undetected,2,No,Lithuania,Siauliai,Šiauliai,55.9399,23.3132
