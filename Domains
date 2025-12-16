@@ -1,78 +1,79 @@
-re-tdm-sec.live
-re-tdm-sec.online
-re-tdmsec.live
-re-tdmsec.online
-re-tdmsec.pub
-re-tdmsec.software
-re-tdmsec.zone
-retdmsec.live
-tdm-sec.consulting
-tdm-sec.live
-tdm-sec.news
-tdm-sec.online
-tdm-sec.pub
-tdm-sec.software
-tdmsec-analysis.live
-tdmsec-analysis.online
-tdmsec.consulting
-tdmsec.expert
-tdmsec.live
-tdmsec.online
-tdmsec.pub
-tdmsec.social
-tdmsecglobal.live
-tdmsecglobal.online
-tdmsecglobal.pub
-tdmsecglobal.zone
-tdmseclabs.consulting
-tdmseclabs.live
-tdmseclabs.online
-tdmseclabs.pub
-tdmseclabs.software
-tdmsecsys.live
-tdmsecsys.online
-tdmsecsys.pub
-tdmsecsys.social
-tdmsecsys.software
-tdmsecsys.zone
-tdmsecteam.live
-tdmsecteam.online
-tdmsecteam.pub
-tdmsecteam.software
-tdmsecteam.zone
-tdmsecure.consulting
-tdmsecure.live
-tdmsecure.online
-tdmsecure.pub
-tdmsecure.software
-tdmsecure.zone
-tdmsecurity.consulting
-tdmsecurity.live
-tdmsecurity.online
-tdmsecurity.pub
-tdmsecurity.social
-tm-blog.live
-tm-blog.online
-tm-blog.pub
-tm-blog.social
-tm-blog.software
-tm-blog.website
-tmsec-blog.live
-tmsec-blog.online
-tmsec-blog.pub
-tmsec-blog.software
-docs-live.works
-docs-workspace.live
-docs-workspace.online
-form-direct.live
-forms-gle.online
-forms.works
-drivemyfile.com
-form-space.org
-redirect-workspace.com
-linkeedservice.com
-linkerseervice.com
-doubletwistertop.com
-buyiceecream.com
-gotomind.net
-tdmsec.com
+IOC	Type	Severity %	Microsoft Detection	CrowdStrike Detection	OTX Pulses
+re-tdm-sec.live	domain	7.37%	undetected	undetected	2
+re-tdm-sec.online	domain	7.37%	undetected	undetected	2
+re-tdmsec.live	domain	6.32%	undetected	undetected	2
+re-tdmsec.online	domain	9.47%	undetected	undetected	2
+re-tdmsec.pub	domain	6.32%	undetected	undetected	0
+re-tdmsec.software	domain	6.32%	undetected	undetected	2
+re-tdmsec.zone	domain	6.32%	undetected	undetected	2
+retdmsec.live	domain	6.32%	undetected	undetected	2
+tdm-sec.consulting	domain	6.32%	undetected	undetected	2
+tdm-sec.live	domain	5.26%	undetected	undetected	2
+tdm-sec.news	domain	8.42%	undetected	undetected	2
+tdm-sec.online	domain	7.37%	undetected	undetected	2
+tdm-sec.pub	domain	6.32%	undetected	undetected	0
+tdm-sec.software	domain	8.42%	undetected	undetected	2
+tdmsec-analysis.live	domain	6.32%	undetected	undetected	2
+tdmsec-analysis.online	domain	6.32%	undetected	undetected	2
+tdmsec.consulting	domain	8.42%	undetected	undetected	2
+tdmsec.expert	domain	6.32%	undetected	undetected	2
+tdmsec.live	domain	8.42%	undetected	undetected	2
+tdmsec.online	domain	6.32%	undetected	undetected	2
+tdmsec.pub	domain	6.32%	undetected	undetected	0
+tdmsec.social	domain	8.42%	undetected	undetected	2
+tdmsecglobal.live	domain	5.26%	undetected	undetected	2
+tdmsecglobal.online	domain	9.47%	undetected	undetected	2
+tdmsecglobal.pub	domain	6.32%	undetected	undetected	0
+tdmsecglobal.zone	domain	6.32%	undetected	undetected	2
+tdmseclabs.consulting	domain	6.32%	undetected	undetected	2
+tdmseclabs.live	domain	6.32%	undetected	undetected	2
+tdmseclabs.online	domain	8.42%	undetected	undetected	2
+tdmseclabs.pub	domain	5.26%	undetected	undetected	0
+tdmseclabs.software	domain	6.32%	undetected	undetected	2
+tdmsecsys.live	domain	7.37%	undetected	undetected	2
+tdmsecsys.online	domain	6.32%	undetected	undetected	2
+tdmsecsys.pub	domain	6.32%	undetected	undetected	0
+tdmsecsys.social	domain	6.32%	undetected	undetected	2
+tdmsecsys.software	domain	7.37%	undetected	undetected	2
+tdmsecsys.zone	domain	7.37%	undetected	undetected	2
+tdmsecteam.live	domain	6.32%	undetected	undetected	2
+tdmsecteam.online	domain	7.37%	undetected	undetected	2
+tdmsecteam.pub	domain	7.37%	undetected	undetected	0
+tdmsecteam.software	domain	6.32%	undetected	undetected	2
+tdmsecteam.zone	domain	8.42%	undetected	undetected	2
+tdmsecure.consulting	domain	6.32%	undetected	undetected	2
+tdmsecure.live	domain	6.32%	undetected	undetected	2
+tdmsecure.online	domain	9.47%	undetected	undetected	2
+tdmsecure.pub	domain	6.32%	undetected	undetected	0
+tdmsecure.software	domain	6.32%	undetected	undetected	2
+tdmsecure.zone	domain	6.32%	undetected	undetected	2
+tdmsecurity.consulting	domain	6.32%	undetected	undetected	2
+tdmsecurity.live	domain	6.32%	undetected	undetected	2
+tdmsecurity.online	domain	7.37%	undetected	undetected	2
+tdmsecurity.pub	domain	6.32%	undetected	undetected	0
+tdmsecurity.social	domain	8.42%	undetected	undetected	2
+tm-blog.live	domain	7.37%	undetected	undetected	2
+tm-blog.online	domain	7.37%	undetected	undetected	2
+tm-blog.pub	domain	7.37%	undetected	undetected	0
+tm-blog.social	domain	7.37%	undetected	undetected	2
+tm-blog.software	domain	7.37%	undetected	undetected	2
+tm-blog.website	domain	11.58%	undetected	undetected	2
+tmsec-blog.live	domain	10.53%	undetected	undetected	2
+tmsec-blog.online	domain	8.42%	undetected	undetected	2
+tmsec-blog.pub	domain	7.37%	undetected	undetected	0
+tmsec-blog.software	domain	7.37%	undetected	undetected	2
+docs-live.works	domain	10.53%	undetected	undetected	2
+docs-workspace.live	domain	7.37%	undetected	undetected	2
+docs-workspace.online	domain	6.32%	undetected	undetected	2
+form-direct.live	domain	10.53%	undetected	undetected	2
+forms-gle.online	domain	15.79%	undetected	undetected	2
+forms.works	domain	8.42%	undetected	undetected	2
+drivemyfile.com	domain	15.79%	undetected	undetected	2
+form-space.org	domain	8.42%	undetected	undetected	2
+redirect-workspace.com	domain	8.42%	undetected	undetected	2
+linkeedservice.com	domain	9.47%	undetected	undetected	2
+linkerseervice.com	domain	9.47%	undetected	undetected	2
+doubletwistertop.com	domain	6.32%	undetected	undetected	2
+buyiceecream.com	domain	7.37%	undetected	undetected	2
+gotomind.net	domain	8.42%	undetected	undetected	2
+tdmsec.com	domain	8.42%	undetected	undetected	2
