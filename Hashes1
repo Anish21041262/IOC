@@ -1,12 +1,12 @@
 IOC	Type	Severity %	Microsoft Detection	CrowdStrike Detection	OTX Pulses
-51cf4fc51ac06847d5abe3c9b94f9101479028b570f110c1d8551f810540515b	file	0%	undetected	undetected	0
+51cf4fc51ac06847d5abe3c9b94f9101479028b570f110c1d8551f810540515b	file	24%			0
 cccad58ad60f46b2e6ffaec52cee492f3def0871ab3d08d23044060e551ee9cb	file	0%	undetected	undetected	0
 7b603bd0ad4ae2143ac7e708227c12a5585130725c9ef827d861e27166c7553e	file	0%	undetected	undetected	0
 65d82d7c2d3094c675d964a45ea1eba2ce52b31f64f4e11fb87764c0dbd0f2e2	file	0%	undetected	undetected	0
 8d30e7e798eca9b786df46eb88b444e212f31322cbee09472cee6747c9a84a44	file	0%	undetected	undetected	0
 a49716891a45425651de8de1353415c80bf491e1f923827c4cda6f6b9de00900	file	0%	undetected	undetected	0
 49ea71d683b292451f1093ad72b78fb94bfe765d05779ec2b42ea52347ed8b5e	file	0%	undetected	undetected	0
-a6c05b10a5c090b743a61fa225b09e390e2dd2bd6cb4fd96b987f1e0d3f2124a	file	1.32%			2
+a6c05b10a5c090b743a61fa225b09e390e2dd2bd6cb4fd96b987f1e0d3f2124a	file	1.32%			0
 3c7958b8f64d63a3564a6a569fe0f76b9ad66632c74d3566621b9a8cf43bdb09	file	0%	undetected	undetected	0
 5c1ee0f7a6edeee8f2d41247e278902a4998f90f	file	0%	undetected	undetected	0
 7a09f8bbf0d6bc1944e09133271be8b86198160c	file	0%			0
@@ -33,44 +33,44 @@ b48b7fe1ba257e4c67f5e6687cf009d598799b7ae1c08341efca3e0559b5f40e	file	0%	undetec
 11b1b2375d9d840912cfd1f0d0d04d93ed0cddb0ae4ddb550a5b62cd044d6b66	file	53.33%	Ransom:Linux/ESXiArgs.B!MTB		49
 4fa565cc2ebfe97b996786facdb454e4328a28792e27e80e8b46fe24b44781af	file	76%	Ransom:Win32/Babuk.ARA!MTB	win/malicious_confidence_100% (W)	9
 dc90560d7198bf824b65ba2cfbe403d84d38113f41a1aa2f37f8d827fd9e0ceb	file	61.84%	Ransom:Linux/Babuk.B!MTB		18
-0cd7b6ea8857ce827180342a1c955e79c3336a6cf2000244e5cfd4279c5fc1b6	file	50.7%	Ransom:Linux/AvosLocker.A!MTB		0
+0cd7b6ea8857ce827180342a1c955e79c3336a6cf2000244e5cfd4279c5fc1b6	file	50.7%	Ransom:Linux/AvosLocker.A!MTB		15
 3a08e3bfec2db5dbece359ac9662e65361a8625a0122e68b56cd5ef3aedf8ce1	file	61.33%	Ransom:Linux/BlackCat.A!MTB		50
 6a0449a0b92dc1b17da219492487de824e86a25284f21e6e3af056fe3f4c4ec0	file	54.05%	Ransom:Linux/FilcodrHive.G!MTB		22
 2e52494e776be6433c89d5853f02b536f7da56e94bbe86ae4cc782f85bed2c4b	file	55.26%	Ransom:Linux/Hive.A		8
-1cbbf108f44c8f4babde546d26425ca5340dccf878d306b90eb0fbec2f83ab51	file	44.74%	Ransom:Linux/Luna.A!MTB		0
-ea1872b2835128e3cb49a0bc27e4727ca33c4e6eba1e80422db19b505f965bc4	file	44%	Ransom:Linux/MoneyMessage.K!MTB		31
+1cbbf108f44c8f4babde546d26425ca5340dccf878d306b90eb0fbec2f83ab51	file	0%	undetected	undetected	0
+ea1872b2835128e3cb49a0bc27e4727ca33c4e6eba1e80422db19b505f965bc4	file	0%	undetected	undetected	0
 8f3db63f70fad912a3d5994e80ad9a6d1db6c38d119b38bc04890dfba4c4a2b2	file	51.32%	Ransom:Linux/HelloKitty.A		10
 0d6c3de5aebbbe85939d7588150edf7b7bdc712fceb6a83d79e65b6f79bfc2ef	file	56%	Ransom:Linux/BlackBasta.A!MTB		34
-984ce69083f2865ce90b48569291982e786980aeef83345953276adfcbbeece8	file	49.33%	Ransom:Linux/DarkSide.A!MTB		0
-9cc3c217e3790f3247a0c0d3d18d6917701571a8526159e942d0fffb848acffb	file	56%	Ransom:Linux/DarkSide.A!MTB		50
+984ce69083f2865ce90b48569291982e786980aeef83345953276adfcbbeece8	file	49.33%	Ransom:Linux/DarkSide.A!MTB		50
+9cc3c217e3790f3247a0c0d3d18d6917701571a8526159e942d0fffb848acffb	file	56%	Ransom:Linux/DarkSide.A!MTB		0
 c93e6237abf041bc2530ccb510dd016ef1cc6847d43bf023351dce2a96fdc33b	file	46.05%	Ransom:Linux/DarkSide.A!MTB		50
 da3bb9669fb983ad8d2ffc01aab9d56198bd9cedf2cc4387f19f4604a070a9b5	file	53.42%	Ransom:Linux/DarkSide.A!MTB		50
 cb408d45762a628872fa782109e8fcfc3a5bf456074b007de21e9331bb3c5849	file	60%	Ransom:Linux/Defray.A!MTB		50
 7594bf1d87d35b489545e283ef1785bb2e04637cc1ff1aca9b666dde70528e2b	file	44%	Ransom:Linux/GwisinLocker.A!MTB		6
 039e1765de1cdec65ad5e49266ab794f8e5642adb0bdeb78d8c0b77e8b34ae09	file	54.67%	Ransom:Linux/RedAlert.A!MTB		28
-f3a1576837ed56bcf79ff486aadf36e78d624853e9409ec1823a6f46fd0143ea	file	56.58%	Ransom:Linux/LockBit.A!MTB		0
+f3a1576837ed56bcf79ff486aadf36e78d624853e9409ec1823a6f46fd0143ea	file	56.58%	Ransom:Linux/LockBit.A!MTB		50
 95776f31cbcac08eb3f3e9235d07513a6d7a6bf9f1b7f3d400b2cf0afdb088a7	file	52%	Ransom:Linux/Conti.A		20
 08f8ae7f25949a742c7896cb76e37fb88c6a7a32398693ec6c2b3d9b488114be	file	77.33%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	0
-9c16211296f88e12538792124b62eb00830d0961e9ab24b825edb61bda8f564f	file	73.33%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	0
-e67d3682910cf1e7ece356860179ada8e847637a86c1e5f6898c48c956f04590	file	72%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	14
-c634378691a675acbf57e611b220e676eb19aa190f617c41a56f43ac48ae14c7	file	77.33%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	0
+9c16211296f88e12538792124b62eb00830d0961e9ab24b825edb61bda8f564f	file	73.33%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	14
+e67d3682910cf1e7ece356860179ada8e847637a86c1e5f6898c48c956f04590	file	72%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	0
+c634378691a675acbf57e611b220e676eb19aa190f617c41a56f43ac48ae14c7	file	77.33%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	14
 c71ce482cf50d59c92cfb1eae560711d47600541b2835182d6e46e0de302ca6c	file	78.67%	Ransom:Win32/Mimic!rfn	win/malicious_confidence_100% (W)	14
 7ae4c5caf6cda7fa8862f64a74bd7f821b50d855d6403bde7bcbd7398b2c7d99	file	76%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	0
 b0c75e92e1fe98715f90b29475de998d0c8c50ca80ce1c141fc09d10a7b8e7ee	file	37.33%	Trojan:Win32/Casdet!rfn		15
-1dea642abe3e27fd91c3db4e0293fb1f7510e14aed73e4ea36bf7299fd8e6506	file	76%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	0
+1dea642abe3e27fd91c3db4e0293fb1f7510e14aed73e4ea36bf7299fd8e6506	file	76%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	15
 4a6f8bf2b989fa60daa6c720b2d388651dd8e4c60d0be04aaed4de0c3c064c8f	file	60%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	15
 b68f469ed8d9deea15af325efc1a56ca8cb5c2b42f2423837a51160456ce0db5	file	80%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	15
-bb28adc32ff1b9dcfaac6b7017b4896d2807b48080f9e6720afde3f89d69676c	file	81.33%	Ransom:Win32/Filecoder!MSR	win/malicious_confidence_100% (W)	0
+bb28adc32ff1b9dcfaac6b7017b4896d2807b48080f9e6720afde3f89d69676c	file	81.33%	Ransom:Win32/Filecoder!MSR	win/malicious_confidence_100% (W)	14
 bf6fa9b06115a8a4ff3982427ddc12215bd1a3d759ac84895b5fb66eaa568bff	file	80%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	14
 ed6cf30ee11b169a65c2a27c4178c5a07ff3515daa339033bf83041faa6f49c1	file	81.33%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	14
 480fb2f6bcb1f394dc171ecbce88b9fa64df1491ec65859ee108f2e787b26e03	file	78.67%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	15
-30f2fe10229863c57d9aab97ec8b7a157ad3ff9ab0b2110bbb4859694b56923f	file	74.67%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	14
+30f2fe10229863c57d9aab97ec8b7a157ad3ff9ab0b2110bbb4859694b56923f	file	74.67%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	0
 2e96b55980a827011a7e0784ab95dcee53958a1bb19f5397080a434041bbeeea	file	81.33%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	15
 136d05b5132adafc4c7616cd6902700de59f3f326c6931eb6b2f3b1f458c7457	file	84%	Ransom:Win32/Mimic.MA!MTB	win/malicious_confidence_100% (W)	15
 c576f7f55c4c0304b290b15e70a638b037df15c69577cd6263329c73416e490e	file	58.67%	HackTool:Win32/Defendercontrol	win/grayware_confidence_100% (W)	33
-4d297ebe3b607eb88a6c30a74a0ad23272f44ffbcf2b49f72444048b78c6e1b4	file	1.32%			9
-3b445be3da961379b11af1fee71fe4513e10832f77727b3a8bbe2eb7bd60b5c3	file	49.35%	TrojanDownloader:Script/WinLNK!MSR		8
-fd78f398e7cc8ced62deba213e0218d780357bcf89e01b748f8ed1e252ac3b21	file	44%			8
+4d297ebe3b607eb88a6c30a74a0ad23272f44ffbcf2b49f72444048b78c6e1b4	file	1.32%			0
+3b445be3da961379b11af1fee71fe4513e10832f77727b3a8bbe2eb7bd60b5c3	file	49.35%	TrojanDownloader:Script/WinLNK!MSR		0
+fd78f398e7cc8ced62deba213e0218d780357bcf89e01b748f8ed1e252ac3b21	file	44%			0
 4a32aa89a5250801c53d19370d98682e0561b642901bdd2987831bc983e0a544	file	47.37%	TrojanDownloader:Script/WinLNK!MSR		9
 c4cf65c95e68c6d610d8735d2922f89f98a6f37257b41ba01cf8179d5947298e	file	0%	undetected	undetected	8
 5f72c5dde7cba7071193ee7053e1adde5ea570f0c4192ac350f5835766060e5a	file	0%	undetected	undetected	8
@@ -86,20 +86,20 @@ bba407734a2567c7e22e443ee5cc1b3a5780c9dd44c79b4a94d514449b0fd39a	file	61.84%	Tro
 8ec37dac2beaa494dcefec62f0bf4ae30a6ce44b27a588169d8f0476bbc94115	file	74.67%	Trojan:Win32/Plugx	win/malicious_confidence_100% (W)	13
 e72e49dc1d95efabc2c12c46df373173f2e20dab715caf58b1be9ca41ec0e172	file	32.89%	Trojan:Win32/PlugX!MSR		50
 0e9071714a4af0be1f96cffc3b0e58520b827d9e58297cb0e02d97551eca3799	file	78.95%	Trojan:Win32/CryptInject!MSR	win/malicious_confidence_100% (W)	50
-39280139735145ba6f0918b684ab664a3de7f93b1e3ebcdd071a5300486b8d20	file	32.47%			9
+39280139735145ba6f0918b684ab664a3de7f93b1e3ebcdd071a5300486b8d20	file	32.47%			0
 41a0407371124bcad7cab56227078ccd635ba6e6b4374b973754af96b7f58119	file	72%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	9
 02aa5b52137410de7cc26747f26e07b65c936d019ee2e1afae268a00e78a1f7f	file	19.48%			9
 2a07877cb53404888e1b6f81bb07a35bc804daa1439317bccde9c498a521644c	file	22.08%			9
 5d98d1193fcbb2479668a24697023829fc9dc1f7d31833c3c42b8380ef859ff1	file	65.33%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	9
 9df15f471083698b818575c381e49c914dee69de	file	74.03%	Backdoor:Win32/Vatet.G!dha	win/malicious_confidence_100% (W)	1
 d4885acb9fb98027f372b16123f99e0d7fff8a7ed97145bde3a47066d6fd5416	file	48.61%		win/grayware_confidence_90% (W)	0
-3a585be7037b0dd24dbc719e8a05d1a1502108bb6e0fea62d6b90980be75a7d9	file	69.74%	Trojan:Win64/IcedID.EG!MTB	win/malicious_confidence_100% (W)	3
+3a585be7037b0dd24dbc719e8a05d1a1502108bb6e0fea62d6b90980be75a7d9	file	69.74%	Trojan:Win64/IcedID.EG!MTB	win/malicious_confidence_100% (W)	0
 00dfa5ffcc6c024a8c0c8f00a9cf388ead0dd47617dc341dd4df5874b68bd54e	file	63.16%	Trojan:Win64/IcedID.EF!MTB	win/malicious_confidence_100% (W)	5
 b41f6bc6c4c05806d1b9e79dd7b361d425902a9c3a3ea92b9ded8b0b0a76f3af	file	71.05%	Trojan:Win64/IcedID.BW!MTB	win/malicious_confidence_100% (W)	3
-3de8568bc332a346e9a87f9f360c4b1942ba48c2c5ed655e8a2a608fa67d498d	file	67.11%	Trojan:Win64/IcedID.BW!MTB	win/malicious_confidence_100% (W)	5
-b1ef43379c1af0ed2bbc2dd710df65a550b3b80cce1b734438e20c64f1d5a42e	file	74.03%	Trojan:Win64/IcedID.EE!MTB	win/malicious_confidence_100% (W)	2
-bd67e49c2ca15156c54956655928723063eca5b4d90ae22dd6ce1029ba596b35	file	71.05%	Trojan:Win64/IcedID.EE!MTB	win/malicious_confidence_100% (W)	2
-ee9fd78107cdcaffc274cf2484d6c74c56c7f3be39b1896894d9525506118d1e	file	81.58%	Trojan:Win32/Emotet.PSK!MTB	win/malicious_confidence_100% (W)	9
+3de8568bc332a346e9a87f9f360c4b1942ba48c2c5ed655e8a2a608fa67d498d	file	67.11%	Trojan:Win64/IcedID.BW!MTB	win/malicious_confidence_100% (W)	0
+b1ef43379c1af0ed2bbc2dd710df65a550b3b80cce1b734438e20c64f1d5a42e	file	0%	undetected	undetected	0
+bd67e49c2ca15156c54956655928723063eca5b4d90ae22dd6ce1029ba596b35	file	71.05%	Trojan:Win64/IcedID.EE!MTB	win/malicious_confidence_100% (W)	0
+ee9fd78107cdcaffc274cf2484d6c74c56c7f3be39b1896894d9525506118d1e	file	81.58%	Trojan:Win32/Emotet.PSK!MTB	win/malicious_confidence_100% (W)	0
 8d5d36c8ffb0a9c81b145aa40c1ff3475702fb0b5f9e08e0577bdc405087e635	file	81.58%	Trojan:Win32/VBInject.BA!MTB	win/malicious_confidence_100% (W)	8
 f1f61b0e96c172a24fba71806829c486b43e141493c78ec4bb895de760134316	file	66.67%	Trojan:Win64/IcedID.PB!MTB	win/malicious_confidence_100% (W)	4
 fb188c80159174b092bc8ca3b0721b3550ad5943a999f79fd904e2dac19d9c07	file	68.42%	Trojan:Win64/IcedID.MM!MTB	win/malicious_confidence_100% (W)	11
@@ -113,11 +113,11 @@ b3063a902d1acc5bdafb98a7976974ea2430b8d62d8aeb414cc3f2fab190dafa	file	80.26%	Tro
 8a99353662ccae117d2bb22efd8c43d7169060450be413af763e8ad7522d2451	file	78.67%	HackTool:Win32/Chisel.A	win/grayware_confidence_100% (W)	50
 4cd00234b18e04dcd745cc81bb928c8451f6601affb5fa45f20bb11bfb5383ce	file	40.79%	Trojan:PowerShell/Malgent!MSR		50
 f8cff7082a936912baf2124d42ed82403c75c87cb160553a7df862f8d81809ee	file	13.33%			50
-216047c048bf1dcbf031cf24bd5e0f263994a5df60b23089e393033d17257cb5	file	58.67%	TrojanDownloader:Win32/Fmasidwn.B	win/grayware_confidence_100% (W)	50
+216047c048bf1dcbf031cf24bd5e0f263994a5df60b23089e393033d17257cb5	file	58.67%	TrojanDownloader:Win32/Fmasidwn.B	win/grayware_confidence_100% (W)	0
 19896a23d7b054625c2f6b1ee1551a0da68ad25cddbb24510a3b74578418e618	file	48%	Trojan:Win64/NSudo!MSR		50
 342b398647073159dfa8a7d36510171f731b760089a546e96fbb8a292791efee	file	47.37%	Trojan:BAT/Autorun.GA!MSR		50
-33c5b4c9a6c24729bb10165e34ae1cd2315cfce5763e65167bd58a57fde9a389	file	71.62%	Ransom:Win64/DarkPower.CT!MTB	win/malicious_confidence_100% (W)	0
-11ddebd9b22a3a21be11908feda0ea1e1aa97bc67b2dfefe766fcea467367394	file	70.27%	Ransom:Win64/DarkPower!rfn	win/malicious_confidence_100% (W)	40
+33c5b4c9a6c24729bb10165e34ae1cd2315cfce5763e65167bd58a57fde9a389	file	71.62%	Ransom:Win64/DarkPower.CT!MTB	win/malicious_confidence_100% (W)	35
+11ddebd9b22a3a21be11908feda0ea1e1aa97bc67b2dfefe766fcea467367394	file	76%	Ransom:Win64/DarkPower!rfn	win/malicious_confidence_100% (W)	0
 3c9f4145e310f616bd5e36ca177a3f370edc13cf2d54bb87fe99972ecf3f09b4	file	82.67%	Ransom:Win32/Nokonoko.PB!MTB	win/malicious_confidence_100% (W)	50
 8b330bf015e48264e65727d9e1c6dd1a069bd05efbd91ec67935f45c7571d18d	file	48.1%	Trojan:Win32/Tiggre!rfn	win/grayware_confidence_100% (W)	0
 9aa1f37517458d635eae4f9b43cb4770880ea0ee171e7e4ad155bbdee0cbe732	file	57.33%	Trojan:Win32/CryptInject!MSR	win/malicious_confidence_100% (W)	50
@@ -128,224 +128,223 @@ cda37b13d1fdee1b4262b5a6146a35d8fc88fa572e55437a47a950037cc65d40	file	68%	Trojan
 d97088f9795f278bb6b732d57f42cbd725a6139afe13e31ae832a5c947099676	file	0%	undetected	undetected	27
 15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed	file	82.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
 5799d554307906e92749a0c45f21baff28d83b1cedccbf7cb6f2b98ac1b00930	file	52.63%	HackTool:Win32/Agent!MSR		7
-b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442	file	65.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
-7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
+b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442	file	65.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	0
+7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
 18c909a2b8c5e16821d6ef908f56881aa0ecceeaccb5fa1e54995935fcfd12f7	file	53.33%	HackTool:Win32/Gmer	win/grayware_confidence_100% (W)	32
 9078564b65b9ac3ce4f59c929207f17037ef971429f0d3ef3751d46651fec8c6	file	0%	undetected	undetected	3
 2587001d6599f0ec03534ea823aab0febb75e83f657fadc3a662338cc08646b0	file	74.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	34
 8c5b108eab6a397bed4c099f13eed52aeeec37cc214423bde07544b44a62e74a	file	0%	undetected	undetected	7
-38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
-cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae	file	81.33%	Ransom:Win32/BlackCat.ABC!MTB	win/malicious_confidence_100% (W)	50
-ed6275195cf9fd758fb7f8bce868c14dc9e9d6b7aa6f472f714bce5ed7fabf7f	file	55.26%	HackTool:Win32/Agent!MSR	win/grayware_confidence_60% (D)	7
+38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
+cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae	file	81.33%	Ransom:Win32/BlackCat.ABC!MTB	win/malicious_confidence_100% (W)	0
+ed6275195cf9fd758fb7f8bce868c14dc9e9d6b7aa6f472f714bce5ed7fabf7f	file	55.26%	HackTool:Win32/Agent!MSR	win/grayware_confidence_60% (D)	0
 e7060538ee4b48b0b975c8928c617f218703dab7aa7814ce97481596f2a78556	file	57.33%	Ransom:Linux/BlackCat.A!MTB		49
-658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582	file	73.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
-bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582	file	73.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	0
+bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
 0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479	file	77.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
 1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e	file	77.33%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
-80dd44226f60ba5403745ba9d18490eb8ca12dbc9be0a317dd2b692ec041da28	file	0%	undetected	undetected	50
-029dde7c2ec880fb3d3e95e6a8376739b4bc46a0ce24012e064b904e6ecb672c	file	0%	undetected	undetected	7
+80dd44226f60ba5403745ba9d18490eb8ca12dbc9be0a317dd2b692ec041da28	file	0%	undetected	undetected	0
+029dde7c2ec880fb3d3e95e6a8376739b4bc46a0ce24012e064b904e6ecb672c	file	0%	undetected	undetected	0
 74464797c5d2df81db2e06f86497b2127fda6766956f1b67b0dcea9570d8b683	file	0%	undetected	undetected	12
 722f1c1527b2c788746fec4dd1af70b0c703644336909735f8f23f6ef265784b	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83	file	82.67%	Ransom:Win32/Filecoder!MSR	win/malicious_confidence_100% (W)	50
+3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83	file	82.67%	Ransom:Win32/Filecoder!MSR	win/malicious_confidence_100% (W)	0
 9f6876762614e407d0ee6005f165dd4bbd12cb21986abc4a3a5c7dc6271fcdc3	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
 59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
-ad5002c8a4621efbd354d58a71427c157e4b2805cb86f434d724fc77068f1c40	file	64.47%	DoS:Win32/Rencisod.A	win/malicious_confidence_100% (W)	20
-d767524e1bbb8d50129485ffa667eb1d379c745c30d4588672636998c20f857f	file	74.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	37
+ad5002c8a4621efbd354d58a71427c157e4b2805cb86f434d724fc77068f1c40	file	64.47%	DoS:Win32/Rencisod.A	win/malicious_confidence_100% (W)	0
+d767524e1bbb8d50129485ffa667eb1d379c745c30d4588672636998c20f857f	file	74.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
 7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487	file	76%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
-2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc	file	78.67%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc	file	78.67%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	0
 731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
-e8a3e804a96c716a3e9b69195db6ffb0d33e2433af871e4d4e1eab3097237173	file	0%	undetected	undetected	0
-72f0981f18b969db2781e874d249d8003c07f99786e217f84cf54a148de259cc	file	0%	undetected	undetected	0
-f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083	file	0%	undetected	undetected	0
-a50ddd96edf7f66a29b407657e8548e2b026bf1ac3d4e08e396f4043d4513f9e	file	0%	undetected	undetected	0
-c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40	file	0%	undetected	undetected	0
-65dbafe9963cb15ce3406de50e007408de7d12c98668de5da10386693aa6cd73	file	0%	undetected	undetected	0
-f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89	file	0%	undetected	undetected	0
-13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31	file	0%	undetected	undetected	0
-f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6	file	0%	undetected	undetected	0
-47affaed55d85e1ebe29cf6784da7e9cdbd86020df8b2e9162a0b1a67f092dcd	file	0%	undetected	undetected	0
-706f3eec328e91ff7f66c8f0a2fb9b556325c153a329a2062dc85879c540839d	file	0%	undetected	undetected	0
-c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486	file	0%	undetected	undetected	0
-aae77d41eba652683f3ae114fadec279d5759052d2d774f149f3055bf40c4c14	file	0%	undetected	undetected	0
-7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8	file	0%	undetected	undetected	0
-b54dd21019ad75047ce74fe0a0e608f56769933556aed22d25f4f8b01ee0da15	file	0%	undetected	undetected	0
-060ca3f63f38b7804420729cde3fc30d126c2a0ffc0104b8e698f78edab96767	file	0%	undetected	undetected	0
-5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898	file	0%	undetected	undetected	0
-28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169	file	0%	undetected	undetected	0
-5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42	file	0%	undetected	undetected	0
-f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb	file	0%	undetected	undetected	0
-c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283	file	0%	undetected	undetected	0
-9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26	file	0%	undetected	undetected	0
-4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf	file	0%	undetected	undetected	0
-e24dbe52ec795c6ab434cd8ac7aa0f3afa536c2d22660cc0a4885400e5a2ceec	file	0%	undetected	undetected	0
-1b6a3d2e68b0360ae658e057f7a80b3a94a68c67132d539d8bb0333a297f0d46	file	0%	undetected	undetected	0
-ed2f501408a7a6e1a854c29c4b0bc5648a6aa8612432df829008931b3e34bf56	file	0%	undetected	undetected	0
-5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42	file	0%	undetected	undetected	0
-9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26	file	0%	undetected	undetected	0
-e7060538ee4b48b0b975c8928c617f218703dab7aa7814ce97481596f2a78556	file	0%	undetected	undetected	0
-f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083	file	0%	undetected	undetected	0
-0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479	file	0%	undetected	undetected	0
-13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31	file	0%	undetected	undetected	0
-15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed	file	0%	undetected	undetected	0
-1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e	file	0%	undetected	undetected	0
-2587001d6599f0ec03534ea823aab0febb75e83f657fadc3a662338cc08646b0	file	0%	undetected	undetected	0
-28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169	file	0%	undetected	undetected	0
-2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc	file	0%	undetected	undetected	0
-38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1	file	0%	undetected	undetected	0
-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83	file	0%	undetected	undetected	0
-4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf	file	0%	undetected	undetected	0
-59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f	file	0%	undetected	undetected	0
-5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898	file	0%	undetected	undetected	0
-658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582	file	0%	undetected	undetected	0
-7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8	file	0%	undetected	undetected	0
-722f1c1527b2c788746fec4dd1af70b0c703644336909735f8f23f6ef265784b	file	0%	undetected	undetected	0
-731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161	file	0%	undetected	undetected	0
-7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487	file	0%	undetected	undetected	0
-7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e	file	0%	undetected	undetected	0
-9f6876762614e407d0ee6005f165dd4bbd12cb21986abc4a3a5c7dc6271fcdc3	file	0%	undetected	undetected	0
-aae77d41eba652683f3ae114fadec279d5759052d2d774f149f3055bf40c4c14	file	0%	undetected	undetected	0
-b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442	file	0%	undetected	undetected	0
-bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117	file	0%	undetected	undetected	0
-be8c5d07ab6e39db28c40db20a32f47a97b7ec9f26c9003f9101a154a5a98486	file	0%	undetected	undetected	0
-c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40	file	0%	undetected	undetected	0
-c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486	file	0%	undetected	undetected	0
-c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283	file	0%	undetected	undetected	0
-cda37b13d1fdee1b4262b5a6146a35d8fc88fa572e55437a47a950037cc65d40	file	0%	undetected	undetected	0
-cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae	file	0%	undetected	undetected	0
-d767524e1bbb8d50129485ffa667eb1d379c745c30d4588672636998c20f857f	file	0%	undetected	undetected	0
-f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb	file	0%	undetected	undetected	0
-ed2f501408a7a6e1a854c29c4b0bc5648a6aa8612432df829008931b3e34bf56	file	0%	undetected	undetected	0
-c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283	file	0%	undetected	undetected	0
-f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89	file	0%	undetected	undetected	0
-c448186224997f1d7c170e12f6003243c76983d6368bc0a03c200df44a37dacf	file	0%	undetected	undetected	0
-f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6	file	0%	undetected	undetected	0
-28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169	file	0%	undetected	undetected	0
-0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479	file	0%	undetected	undetected	0
-5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42	file	0%	undetected	undetected	0
-9b67418fde4b3b83e2841f5dbe43b01d26a543fee7149572264f4d7304f0cde7	file	0%	undetected	undetected	0
-4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf	file	0%	undetected	undetected	0
-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83	file	0%	undetected	undetected	0
-2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc	file	0%	undetected	undetected	0
-cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae	file	0%	undetected	undetected	0
-f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6	file	0%	undetected	undetected	0
-c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40	file	0%	undetected	undetected	0
-3c300726a6cdd8a39230f0775ea726c2d42838ac7ff53bfdd7c58d28df4182d5	file	0%	undetected	undetected	0
-38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1	file	0%	undetected	undetected	0
-731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161	file	0%	undetected	undetected	0
-731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161	file	0%	undetected	undetected	0
-8ee191b51b853addc862307c8f641bd251a8b7dd88263d228453bb06882f2464	file	0%	undetected	undetected	0
-b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442	file	0%	undetected	undetected	0
-658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582	file	0%	undetected	undetected	0
-7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e	file	0%	undetected	undetected	0
-31eb1de7e840a342fd468e558e5ab627bcb4c542a8fe01aec4d5ba01d539a0fc	file	0%	undetected	undetected	0
-3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83	file	0%	undetected	undetected	0
-1b90e6f959db883fb4a036dac06242be724a7637708058e2c439e2250222d6d1	file	0%	undetected	undetected	0
-f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb	file	0%	undetected	undetected	0
-59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f	file	0%	undetected	undetected	0
-f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb	file	0%	undetected	undetected	0
-f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89	file	0%	undetected	undetected	0
-7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8	file	0%	undetected	undetected	0
-5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898	file	0%	undetected	undetected	0
-be8c5d07ab6e39db28c40db20a32f47a97b7ec9f26c9003f9101a154a5a98486	file	0%	undetected	undetected	0
-1b6a3d2e68b0360ae658e057f7a80b3a94a68c67132d539d8bb0333a297f0d46	file	0%	undetected	undetected	0
-7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487	file	0%	undetected	undetected	0
-e24dbe52ec795c6ab434cd8ac7aa0f3afa536c2d22660cc0a4885400e5a2ceec	file	0%	undetected	undetected	0
-1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e	file	0%	undetected	undetected	0
-59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f	file	0%	undetected	undetected	0
-7d8671c91a02bfbff8b89a76501b9be017a66a8bba624ed4fe2c7f81b9380ac9	file	0%	undetected	undetected	0
-15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed	file	0%	undetected	undetected	0
-bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117	file	0%	undetected	undetected	0
-9403a6574da6a4e871f01f6a8ad43ab841184d2bc8b679b66ee8e07bde5e09e3	file	0%	undetected	undetected	0
-be8c5d07ab6e39db28c40db20a32f47a97b7ec9f26c9003f9101a154a5a98486	file	0%	undetected	undetected	0
-c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283	file	0%	undetected	undetected	0
-2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc	file	0%	undetected	undetected	0
-7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e	file	0%	undetected	undetected	0
-4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf	file	0%	undetected	undetected	0
-7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8	file	0%	undetected	undetected	0
-cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae	file	0%	undetected	undetected	0
-b809d6c1d643d1206ebaa1289ab38c20f4dceffd144a0131c7ea49943d26e683	file	0%	undetected	undetected	0
-13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31	file	0%	undetected	undetected	0
-b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442	file	0%	undetected	undetected	0
-7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487	file	0%	undetected	undetected	0
-658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582	file	0%	undetected	undetected	0
-0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479	file	0%	undetected	undetected	0
-5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42	file	0%	undetected	undetected	0
-5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898	file	0%	undetected	undetected	0
-1b6a3d2e68b0360ae658e057f7a80b3a94a68c67132d539d8bb0333a297f0d46	file	0%	undetected	undetected	0
-e24dbe52ec795c6ab434cd8ac7aa0f3afa536c2d22660cc0a4885400e5a2ceec	file	0%	undetected	undetected	0
-ed2f501408a7a6e1a854c29c4b0bc5648a6aa8612432df829008931b3e34bf56	file	0%	undetected	undetected	0
-9aa1f37517458d635eae4f9b43cb4770880ea0ee171e7e4ad155bbdee0cbe732	file	0%	undetected	undetected	0
-9aa1f37517458d635eae4f9b43cb4770880ea0ee171e7e4ad155bbdee0cbe732	file	0%	undetected	undetected	0
-38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1	file	0%	undetected	undetected	0
-c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40	file	0%	undetected	undetected	0
-15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed	file	0%	undetected	undetected	0
-13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31	file	0%	undetected	undetected	0
-1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e	file	0%	undetected	undetected	0
-28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169	file	0%	undetected	undetected	0
-bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117	file	0%	undetected	undetected	0
-08c6e20b1785d4ec4e3f9956931d992377963580b4b2c6579fd9930e08882b1c	file	0%	undetected	undetected	0
-09566a8c3d834efe37b230baaf9c5aa7fb1266bd3bd6e11d64fd60c18c4fbb6a	file	0%	undetected	undetected	0
-00ebd55a9de1fcdd57550d97463b6bc417184730e3f4646253ba53c4b473b7c0	file	0%	undetected	undetected	0
-02f250a3df59dec575f26679ebd25de7c1d5b4d9d08016685f87a3628a393f92	file	0%	undetected	undetected	0
-03df9dbf3fa35b88d948935e122a0217228ed7d1d3c892265791b55e38fae24c	file	0%	undetected	undetected	0
-03ebe8dc4828536fea08858fdfc3b53237eb514fe8cf6bc7134afb41b22f96a2	file	0%	undetected	undetected	0
-0432b4ad0f978dd765ac366f768108b78624dab8704e119181a746115c2bef75	file	0%	undetected	undetected	0
-0a82724cfb44769e69d75318b0868cd6de4aa789951362b3e86199e6c7922610	file	0%	undetected	undetected	0
-0bad6382f3e3c8bf90f4a141b344154f8f70e31a98f354b8ac813b9fcdaf48f7	file	0%	undetected	undetected	0
-0c840606112df18bfa06d58195a0ed43715c56899445d55f55bc3789fde14ed9	file	0%	undetected	undetected	0
-124c65d01c6ba01dead43e246ae4c300d7345c8f46ae71ebf101bef5510f35aa	file	0%	undetected	undetected	0
-1d1e8e2bd3f8276f629e315b2ac838deaac37f3b61ceb780a58f7db611cf9669	file	0%	undetected	undetected	0
-203b947a8d5016b98d5ec565cd0a20038203420b56c9c3ce736529282c7e98ec	file	0%	undetected	undetected	0
-21acd48a82d4a0e9d377930220e384bc256eaaaf9457a45553636c9f63ae6731	file	0%	undetected	undetected	0
-21c644438a00fb75fabb577076933a99119e9f07e71eaab3f7dc6c629860c4c0	file	0%	undetected	undetected	0
-2c64f5f2bde51f7c650078aeee22a4b73e6b859a7327d0e3dd0d88a17e13dbb4	file	0%	undetected	undetected	0
-30cd6f1ca0d18d125af409faf1b66d3889a12e2f1b42d3270c2ee904f01fe7f0	file	0%	undetected	undetected	0
-316a5895965fdea58de100355ba1b3a14c0515a40156fc7ab64bdb5d14379888	file	0%	undetected	undetected	0
-3592c9268f515efe1275760a21046a03a3067872fcb3da7b53477527123c09a7	file	0%	undetected	undetected	0
-36baceccfe27fb8b1be3d4f0a9e81b9028640aeedf068d71b3a6d080e698a793	file	0%	undetected	undetected	0
-383f9aa52d4d9dddb396ae22b8713ec524f1c122275da3ebd5d69d25685f2800	file	0%	undetected	undetected	0
-3a5b015655f3aad4b4fd647aa34fda4ce784d75a20d12a73f8dc0e0d866e7e01	file	0%	undetected	undetected	0
-3f7cbfe8c40ec4b599ba7dea95321c377c1d9f08c56c62b6809157f73774bde8	file	0%	undetected	undetected	0
-42b17e87923cb88b6ae8f0666f963c15614f89fa560e663a84a056957b74bca1	file	0%	undetected	undetected	0
-44cb88c5249de0fe7dbbb9feb782f1d0327301dd6ec31810516bdfa79cc689bb	file	0%	undetected	undetected	0
-45031b48fd957c9ff863b805684caceb21caf23f1cffade15915e88bd009c347	file	0%	undetected	undetected	0
-45aeaffa5a8e2124e8c35e7a0e8f055fb6bb5ded8a210afd2d7fb30dcfc1f91d	file	0%	undetected	undetected	0
-461f427d71d6e2e2320ed5f8e6160d6bee23a98ff929d8d8b7567dcc6118d937	file	0%	undetected	undetected	0
-4ccc3a7c6b18db6f7251c447e19e24c9dde30a45e78d283ed367f6f0165c2fb1	file	0%	undetected	undetected	0
-4cf090e3ae23ea6cbe76df697bf7143bcc95acfc1521fbe5af77cb5033fae87a	file	0%	undetected	undetected	0
-56dea1387925e4e5eb3673c8656ce5366a74d5f105a590ae321ac3b233e12b50	file	0%	undetected	undetected	0
-588a40e5d53016b2261e08229943063a71b40f034b998361c075bf7b8d5245fe	file	0%	undetected	undetected	0
-590ea5fa2db24715d72c276c59434b38d21678d6dcabb41f0e370f6dc56ab26b	file	0%	undetected	undetected	0
-5aa810e4891538670cc0db6274b7276abe84e8ccbbaef1d3b1208b9ad419a9fa	file	0%	undetected	undetected	0
-5b7ca58a5439e639951dc045415ad71796d902039b879336c7536e3813cdf8de	file	0%	undetected	undetected	0
-5e0587e61d94a40091480a2f5f78621362265b8702b3558a0db536693159865f	file	0%	undetected	undetected	0
-613f0384286bf9956143e5cd7f885cc9b2cf30acaab2fe67a891ff26aaa162fc	file	0%	undetected	undetected	0
-6b9ca4cbb68f23e164625614d9d074b7bb9e2c5aeb429034ed4d6440594ce64e	file	0%	undetected	undetected	0
-6e3b77a1131912156c3f65f3b7e8572bd2e02b8bb7180104e8bf36e2e1451d43	file	0%	undetected	undetected	0
-6eeb8de811f707ec3b77e212d415f0d79dca77b564d7738ae36612c457f451cc	file	0%	undetected	undetected	0
-72f9d83c7852f2247e24113cb379fff71c06f095910726ea79479f16aac6070f	file	0%	undetected	undetected	0
-7b7cce10967d657b7ad0a66270dfee7000dac8aca2e39199c9713a4ee42279c2	file	0%	undetected	undetected	0
-7dc751629d80ebbcb18fc08ab90c8503825898a591f2c9fbb0d0145173c646f9	file	0%	undetected	undetected	0
-85361265e3f97a280fd2950b49023f8cfcb204a55bedf8ba467f078a6e3c45e0	file	0%	undetected	undetected	0
-897737252ce8e474774548b99c9bb5fc52484fe51df8e5d87945186adf7a5dd5	file	0%	undetected	undetected	0
-8b80a84b2a0a5a5f9670a951492749c3798c9f4d41589872224d57d41913fb46	file	0%	undetected	undetected	0
-8c2dce63957579f99a0e8c71755bd8a69298a4621d7b8984b06b69ed874f8d26	file	0%	undetected	undetected	0
-959c650e9b8e2b003d81e042de8f4f81c7671437124d74136d5ec26f32a72437	file	0%	undetected	undetected	0
-989408f2692a10b011471fbbdf55d9ccc8e438308393b35736fe02b45ec8c34c	file	0%	undetected	undetected	0
-a0ff2c622c32e05aef8e7fb2e36b693aecc8cc04e049d3b47c0e0cb50d3ab575	file	0%	undetected	undetected	0
-a6cc8bd23bbafd0b356404eb24b50236815a03abdfcf8d280dbedd5c45bf6282	file	0%	undetected	undetected	0
-a9787581be4c667438a07a060137d6a83abcc2d1e33eef1086622dece56bb48f	file	0%	undetected	undetected	0
-a9ce91a9a1bcbe2cd2ec023cdf2f302c8ac4f6bfe04e83a9c4edd1c47b53618e	file	0%	undetected	undetected	0
-b561a5d5bb5cf659f7f23fd833244a61031bc5c5e69972b22f4ff5c495a44203	file	0%	undetected	undetected	0
-b6214517043d1b0bc41f9754f851a905c5ac4af30e30a7c0725a93bfcc063374	file	0%	undetected	undetected	0
-bb4d0f67360858a27da21d79bf93b5c628045883712c3c2e10917bebf6771c44	file	0%	undetected	undetected	0
-c01323aae6c62466bda8e6347e64266c725e6a754b06d4fc4aad1c323d3e21ed	file	0%	undetected	undetected	0
-c632ce1dc34111c66efb817f608bf3b547fc9df5fed478d736b4c53a41ba193e	file	0%	undetected	undetected	0
-c7ba33d4ef49b5dd0e6ad4a17bb04733db4832c5ef6bc07da51a0a4ffd7d831f	file	0%	undetected	undetected	0
-c7e71eb5d99cb54f83d3617682805bdf2991cb8fd0b4d34ecc0cf7624aaed6c8	file	0%	undetected	undetected	0
-d0d8628b44da07aaac7d2bc0287897b2abaeaaeded1d62cdebb6b71078d82e3e	file	0%	undetected	undetected	0
-d6223b02155d8a84bf1b31ed463092a8d0e3e3cdb5d15a72b5638e69b67c05b7	file	0%	undetected	undetected	0
-db11260b9eff22f397c4eb6e2f50d02545dbb7440046c6f12dbc68e0f32d57ce	file	0%	undetected	undetected	0
-ddb4776992155b9c5a26b47b53df2fed780c67b45eca5cbdf573e0dc3c20c371	file	0%	undetected	undetected	0
-ddca9b2f9b4c20faad500e19ba74c8d478c5be02596e9b1ff5a26ef4396bcd59	file	0%	undetected	undetected	0
-dde3c98b6a370fb8d1785f3134a76cb465cd663db20dffe011da57a4de37aa95	file	0%	undetected	undetected	0
+e8a3e804a96c716a3e9b69195db6ffb0d33e2433af871e4d4e1eab3097237173	file	53.33%	HackTool:Win32/Gmer	win/grayware_confidence_100% (W)	50
+72f0981f18b969db2781e874d249d8003c07f99786e217f84cf54a148de259cc	file	78.67%	Ransom:Win32/BlackCat.A	win/malicious_confidence_100% (W)	13
+f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083	file	57.33%	Ransom:Linux/BlackCat.A!MTB		0
+a50ddd96edf7f66a29b407657e8548e2b026bf1ac3d4e08e396f4043d4513f9e	file	0%	undetected	undetected	3
+c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40	file	66.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
+65dbafe9963cb15ce3406de50e007408de7d12c98668de5da10386693aa6cd73	file	0%	undetected	undetected	29
+f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89	file	0%	undetected	undetected	24
+13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
+f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6	file	58.67%	Ransom:Linux/BlackCat.A!MTB		50
+47affaed55d85e1ebe29cf6784da7e9cdbd86020df8b2e9162a0b1a67f092dcd	file	0%	undetected	undetected	29
+706f3eec328e91ff7f66c8f0a2fb9b556325c153a329a2062dc85879c540839d	file	82.67%	Ransom:Win32/BlackMatter.MAK!MTB	win/malicious_confidence_100% (W)	0
+c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486	file	85.33%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
+aae77d41eba652683f3ae114fadec279d5759052d2d774f149f3055bf40c4c14	file	74.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
+7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8	file	80%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+b54dd21019ad75047ce74fe0a0e608f56769933556aed22d25f4f8b01ee0da15	file	0%	undetected	undetected	28
+060ca3f63f38b7804420729cde3fc30d126c2a0ffc0104b8e698f78edab96767	file	0%	undetected	undetected	29
+5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898	file	76%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169	file	76%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42	file	61.33%	Ransom:Linux/BlackCat.A!MTB		50
+f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283	file	78.67%	Ransom:Win32/BlackCat!pz		50
+9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26	file	56%	Ransom:Linux/BlackCat.A!MTB		50
+4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+e24dbe52ec795c6ab434cd8ac7aa0f3afa536c2d22660cc0a4885400e5a2ceec	file	82.67%	Ransom:Win32/BlackCat!rfn	win/malicious_confidence_100% (W)	39
+1b6a3d2e68b0360ae658e057f7a80b3a94a68c67132d539d8bb0333a297f0d46	file	72.37%	HackTool:Win32/Logoloz.A!MTB	win/malicious_confidence_100% (W)	13
+ed2f501408a7a6e1a854c29c4b0bc5648a6aa8612432df829008931b3e34bf56	file	68%	HackTool:Win32/LaZagne	win/malicious_confidence_100% (W)	50
+5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42	file	61.33%	Ransom:Linux/BlackCat.A!MTB		50
+9802a1e8fb425ac3a7c0a7fca5a17cfcb7f3f5f0962deb29e3982f0bece95e26	file	56%	Ransom:Linux/BlackCat.A!MTB		50
+e7060538ee4b48b0b975c8928c617f218703dab7aa7814ce97481596f2a78556	file	57.33%	Ransom:Linux/BlackCat.A!MTB		49
+f7a038f9b91c40e9d67f4168997d7d8c12c2d27cd9e36c413dd021796a24e083	file	57.33%	Ransom:Linux/BlackCat.A!MTB		50
+0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479	file	77.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed	file	82.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e	file	77.33%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+2587001d6599f0ec03534ea823aab0febb75e83f657fadc3a662338cc08646b0	file	74.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	34
+28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169	file	76%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc	file	78.67%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83	file	82.67%	Ransom:Win32/Filecoder!MSR	win/malicious_confidence_100% (W)	50
+4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898	file	76%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582	file	73.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8	file	80%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+722f1c1527b2c788746fec4dd1af70b0c703644336909735f8f23f6ef265784b	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487	file	76%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+9f6876762614e407d0ee6005f165dd4bbd12cb21986abc4a3a5c7dc6271fcdc3	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+aae77d41eba652683f3ae114fadec279d5759052d2d774f149f3055bf40c4c14	file	74.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	37
+b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442	file	65.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+be8c5d07ab6e39db28c40db20a32f47a97b7ec9f26c9003f9101a154a5a98486	file	70.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40	file	66.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+c5ad3534e1c939661b71f56144d19ff36e9ea365fdb47e4f8e2d267c39376486	file	85.33%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283	file	78.67%	Ransom:Win32/BlackCat!pz		50
+cda37b13d1fdee1b4262b5a6146a35d8fc88fa572e55437a47a950037cc65d40	file	68%	Trojan:Win32/Casdet!rfn	win/malicious_confidence_100% (W)	50
+cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae	file	81.33%	Ransom:Win32/BlackCat.ABC!MTB	win/malicious_confidence_100% (W)	50
+d767524e1bbb8d50129485ffa667eb1d379c745c30d4588672636998c20f857f	file	74.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	37
+f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+ed2f501408a7a6e1a854c29c4b0bc5648a6aa8612432df829008931b3e34bf56	file	68%	HackTool:Win32/LaZagne	win/malicious_confidence_100% (W)	50
+c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283	file	78.67%	Ransom:Win32/BlackCat!pz		50
+f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89	file	76.32%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	24
+c448186224997f1d7c170e12f6003243c76983d6368bc0a03c200df44a37dacf	file	61.84%	HackTool:Win32/Lsassdump.P	win/grayware_confidence_70% (W)	7
+f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6	file	58.67%	Ransom:Linux/BlackCat.A!MTB		50
+28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169	file	76%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479	file	77.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42	file	61.33%	Ransom:Linux/BlackCat.A!MTB		50
+9b67418fde4b3b83e2841f5dbe43b01d26a543fee7149572264f4d7304f0cde7	file	64%	Trojan:Win64/Tnega!MSR	win/malicious_confidence_100% (W)	30
+4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83	file	82.67%	Ransom:Win32/Filecoder!MSR	win/malicious_confidence_100% (W)	50
+2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc	file	78.67%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae	file	81.33%	Ransom:Win32/BlackCat.ABC!MTB	win/malicious_confidence_100% (W)	50
+f8c08d00ff6e8c6adb1a93cd133b19302d0b651afd73ccb54e3b6ac6c60d99c6	file	58.67%	Ransom:Linux/BlackCat.A!MTB		50
+c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40	file	66.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+3c300726a6cdd8a39230f0775ea726c2d42838ac7ff53bfdd7c58d28df4182d5	file	61.84%	HackTool:Win32/Impacket!MSR	win/malicious_confidence_100% (W)	50
+38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+731adcf2d7fb61a8335e23dbee2436249e5d5753977ec465754c6b699e9bf161	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+8ee191b51b853addc862307c8f641bd251a8b7dd88263d228453bb06882f2464	file	69.74%	Ransom:Win32/BlackCat!MSR		25
+b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442	file	65.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582	file	73.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+31eb1de7e840a342fd468e558e5ab627bcb4c542a8fe01aec4d5ba01d539a0fc	file	85.33%	HackTool:Win32/Mimikatz!pz	win/malicious_confidence_100% (W)	50
+3d7cf20ca6476e14e0a026f9bdd8ff1f26995cdc5854c3adb41a6135ef11ba83	file	82.67%	Ransom:Win32/Filecoder!MSR	win/malicious_confidence_100% (W)	50
+1b90e6f959db883fb4a036dac06242be724a7637708058e2c439e2250222d6d1	file	72.37%	Ransom:Win64/BlackCat!MSR	win/malicious_confidence_60% (W)	50
+f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+f837f1cd60e9941aa60f7be50a8f2aaaac380f560db8ee001408f35c1b7a97cb	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+f815f5d6c85bcbc1ec071dd39532a20f5ce910989552d980d1d4346f57b75f89	file	76.32%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	0
+7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8	file	80%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898	file	76%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	0
+be8c5d07ab6e39db28c40db20a32f47a97b7ec9f26c9003f9101a154a5a98486	file	70.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+1b6a3d2e68b0360ae658e057f7a80b3a94a68c67132d539d8bb0333a297f0d46	file	72.37%	HackTool:Win32/Logoloz.A!MTB	win/malicious_confidence_100% (W)	0
+7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487	file	76%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+e24dbe52ec795c6ab434cd8ac7aa0f3afa536c2d22660cc0a4885400e5a2ceec	file	82.67%	Ransom:Win32/BlackCat!rfn	win/malicious_confidence_100% (W)	39
+1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e	file	77.33%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
+59868f4b346bd401e067380cac69080709c86e06fae219bfb5bc17605a71ab3f	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+7d8671c91a02bfbff8b89a76501b9be017a66a8bba624ed4fe2c7f81b9380ac9	file	52%	Trojan:PowerShell/GateThief!MSR		48
+15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed	file	82.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+9403a6574da6a4e871f01f6a8ad43ab841184d2bc8b679b66ee8e07bde5e09e3	file	64%		win/malicious_confidence_100% (W)	6
+be8c5d07ab6e39db28c40db20a32f47a97b7ec9f26c9003f9101a154a5a98486	file	70.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	0
+c8b3b67ea4d7625f8b37ba59eed5c9406b3ef04b7a19b97e5dd5dab1bd59f283	file	78.67%	Ransom:Win32/BlackCat!pz		50
+2cf54942e8cf0ef6296deaa7975618dadff0c32535295d3f0d5f577552229ffc	file	78.67%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	0
+7e363b5f1ba373782261713fa99e8bbc35ddda97e48799c4eb28f17989da8d8e	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+4e18f9293a6a72d5d42dad179b532407f45663098f959ea552ae43dbb9725cbf	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+7154fdb1ef9044da59fcfdbdd1ed9abc1a594cacb41a0aeddb5cd9fdaeea5ea8	file	80%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+cefea76dfdbb48cfe1a3db2c8df34e898e29bec9b2c13e79ef40655c637833ae	file	81.33%	Ransom:Win32/BlackCat.ABC!MTB	win/malicious_confidence_100% (W)	50
+b809d6c1d643d1206ebaa1289ab38c20f4dceffd144a0131c7ea49943d26e683	file	67.11%	Backdoor:Win32/CobaltStrikeLoader.T!dha	win/malicious_confidence_100% (W)	36
+13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+b588823eb5c65f36d067d496881d9c704d3ba57100c273656a56a43215f35442	file	65.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	0
+7b2449bb8be1b37a9d580c2592a67a759a3116fe640041d0f36dc93ca3db4487	file	76%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+658e07739ad0137bceb910a351ce3fe4913f6fcc3f63e6ff2eb726e45f29e582	file	73.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+0c6f444c6940a3688ffc6f8b9d5774c032e3551ebbccb64e4280ae7fc1fac479	file	77.33%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+5121f08cf8614a65d7a86c2f462c0694c132e2877a7f54ab7fcefd7ee5235a42	file	61.33%	Ransom:Linux/BlackCat.A!MTB		0
+5bdc0fb5cfbd42de726aacc40eddca034b5fa4afcc88ddfb40a3d9ae18672898	file	76%	Trojan:Win32/Raccoon!pz	win/malicious_confidence_100% (W)	50
+1b6a3d2e68b0360ae658e057f7a80b3a94a68c67132d539d8bb0333a297f0d46	file	72.37%	HackTool:Win32/Logoloz.A!MTB	win/malicious_confidence_100% (W)	13
+e24dbe52ec795c6ab434cd8ac7aa0f3afa536c2d22660cc0a4885400e5a2ceec	file	82.67%	Ransom:Win32/BlackCat!rfn	win/malicious_confidence_100% (W)	39
+ed2f501408a7a6e1a854c29c4b0bc5648a6aa8612432df829008931b3e34bf56	file	68%	HackTool:Win32/LaZagne	win/malicious_confidence_100% (W)	50
+9aa1f37517458d635eae4f9b43cb4770880ea0ee171e7e4ad155bbdee0cbe732	file	57.33%	Trojan:Win32/CryptInject!MSR	win/malicious_confidence_100% (W)	50
+9aa1f37517458d635eae4f9b43cb4770880ea0ee171e7e4ad155bbdee0cbe732	file	57.33%	Trojan:Win32/CryptInject!MSR	win/malicious_confidence_100% (W)	50
+38834b796ed025563774167716a477e9217d45e47def20facb027325f2a790d1	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+c3e5d4e62ae4eca2bfca22f8f3c8cbec12757f78107e91e85404611548e06e40	file	66.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+15b57c1b68cd6ce3c161042e0f3be9f32d78151fe95461eedc59a79fc222c7ed	file	82.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+13828b390d5f58b002e808c2c4f02fdd920e236cc8015480fa33b6c1a9300e31	file	80%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+1af1ca666e48afc933e2eda0ae1d6e88ebd23d27c54fd1d882161fd8c70b678e	file	77.33%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+28d7e6fe31dc00f82cb032ba29aad6429837ba5efb83c2ce4d31d565896e1169	file	76%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+bd337d4e83ab1c2cacb43e4569f977d188f1bb7c7a077026304bf186d49d4117	file	78.67%	Ransom:Win32/BlackCat!pz	win/malicious_confidence_100% (W)	50
+08c6e20b1785d4ec4e3f9956931d992377963580b4b2c6579fd9930e08882b1c	file	4.05%			50
+09566a8c3d834efe37b230baaf9c5aa7fb1266bd3bd6e11d64fd60c18c4fbb6a	file	22.67%	TrojanDownloader:JS/Donvibs.P		0
+00ebd55a9de1fcdd57550d97463b6bc417184730e3f4646253ba53c4b473b7c0	file	81.58%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+02f250a3df59dec575f26679ebd25de7c1d5b4d9d08016685f87a3628a393f92	file	76.32%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+03df9dbf3fa35b88d948935e122a0217228ed7d1d3c892265791b55e38fae24c	file	78.95%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+03ebe8dc4828536fea08858fdfc3b53237eb514fe8cf6bc7134afb41b22f96a2	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+0432b4ad0f978dd765ac366f768108b78624dab8704e119181a746115c2bef75	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	16
+0a82724cfb44769e69d75318b0868cd6de4aa789951362b3e86199e6c7922610	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+0bad6382f3e3c8bf90f4a141b344154f8f70e31a98f354b8ac813b9fcdaf48f7	file	85.71%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+0c840606112df18bfa06d58195a0ed43715c56899445d55f55bc3789fde14ed9	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+124c65d01c6ba01dead43e246ae4c300d7345c8f46ae71ebf101bef5510f35aa	file	80.52%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+1d1e8e2bd3f8276f629e315b2ac838deaac37f3b61ceb780a58f7db611cf9669	file	78.95%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+203b947a8d5016b98d5ec565cd0a20038203420b56c9c3ce736529282c7e98ec	file	77.63%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+21acd48a82d4a0e9d377930220e384bc256eaaaf9457a45553636c9f63ae6731	file	80.26%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+21c644438a00fb75fabb577076933a99119e9f07e71eaab3f7dc6c629860c4c0	file	77.92%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+2c64f5f2bde51f7c650078aeee22a4b73e6b859a7327d0e3dd0d88a17e13dbb4	file	78.95%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+30cd6f1ca0d18d125af409faf1b66d3889a12e2f1b42d3270c2ee904f01fe7f0	file	80.26%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+316a5895965fdea58de100355ba1b3a14c0515a40156fc7ab64bdb5d14379888	file	80.26%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+3592c9268f515efe1275760a21046a03a3067872fcb3da7b53477527123c09a7	file	78.95%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+36baceccfe27fb8b1be3d4f0a9e81b9028640aeedf068d71b3a6d080e698a793	file	85.71%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+383f9aa52d4d9dddb396ae22b8713ec524f1c122275da3ebd5d69d25685f2800	file	81.58%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+3a5b015655f3aad4b4fd647aa34fda4ce784d75a20d12a73f8dc0e0d866e7e01	file	78.95%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+3f7cbfe8c40ec4b599ba7dea95321c377c1d9f08c56c62b6809157f73774bde8	file	75%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+42b17e87923cb88b6ae8f0666f963c15614f89fa560e663a84a056957b74bca1	file	84.21%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+44cb88c5249de0fe7dbbb9feb782f1d0327301dd6ec31810516bdfa79cc689bb	file	84.21%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+45031b48fd957c9ff863b805684caceb21caf23f1cffade15915e88bd009c347	file	81.58%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+45aeaffa5a8e2124e8c35e7a0e8f055fb6bb5ded8a210afd2d7fb30dcfc1f91d	file	89.47%	Virus:Win32/Neshta.A	win/malicious_confidence_100% (W)	2
+461f427d71d6e2e2320ed5f8e6160d6bee23a98ff929d8d8b7567dcc6118d937	file	78.95%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+4ccc3a7c6b18db6f7251c447e19e24c9dde30a45e78d283ed367f6f0165c2fb1	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+4cf090e3ae23ea6cbe76df697bf7143bcc95acfc1521fbe5af77cb5033fae87a	file	78.95%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+56dea1387925e4e5eb3673c8656ce5366a74d5f105a590ae321ac3b233e12b50	file	82.67%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+588a40e5d53016b2261e08229943063a71b40f034b998361c075bf7b8d5245fe	file	80.52%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+590ea5fa2db24715d72c276c59434b38d21678d6dcabb41f0e370f6dc56ab26b	file	82.67%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+5aa810e4891538670cc0db6274b7276abe84e8ccbbaef1d3b1208b9ad419a9fa	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+5b7ca58a5439e639951dc045415ad71796d902039b879336c7536e3813cdf8de	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+5e0587e61d94a40091480a2f5f78621362265b8702b3558a0db536693159865f	file	79.22%	Ransom:Win32/MedusaLocker.B!MTB	win/malicious_confidence_100% (W)	2
+613f0384286bf9956143e5cd7f885cc9b2cf30acaab2fe67a891ff26aaa162fc	file	78.95%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+6b9ca4cbb68f23e164625614d9d074b7bb9e2c5aeb429034ed4d6440594ce64e	file	89.47%	Virus:Win32/Neshta.A	win/malicious_confidence_100% (W)	2
+6e3b77a1131912156c3f65f3b7e8572bd2e02b8bb7180104e8bf36e2e1451d43	file	80.52%	Ransom:Win32/MedusaLocker!pz	win/malicious_confidence_100% (W)	2
+6eeb8de811f707ec3b77e212d415f0d79dca77b564d7738ae36612c457f451cc	file	77.63%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+72f9d83c7852f2247e24113cb379fff71c06f095910726ea79479f16aac6070f	file	80%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+7b7cce10967d657b7ad0a66270dfee7000dac8aca2e39199c9713a4ee42279c2	file	80.52%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+7dc751629d80ebbcb18fc08ab90c8503825898a591f2c9fbb0d0145173c646f9	file	83.12%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+85361265e3f97a280fd2950b49023f8cfcb204a55bedf8ba467f078a6e3c45e0	file	81.58%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+897737252ce8e474774548b99c9bb5fc52484fe51df8e5d87945186adf7a5dd5	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+8b80a84b2a0a5a5f9670a951492749c3798c9f4d41589872224d57d41913fb46	file	80%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+8c2dce63957579f99a0e8c71755bd8a69298a4621d7b8984b06b69ed874f8d26	file	70.13%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+959c650e9b8e2b003d81e042de8f4f81c7671437124d74136d5ec26f32a72437	file	82.67%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+989408f2692a10b011471fbbdf55d9ccc8e438308393b35736fe02b45ec8c34c	file	78.95%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+a0ff2c622c32e05aef8e7fb2e36b693aecc8cc04e049d3b47c0e0cb50d3ab575	file	75%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+a6cc8bd23bbafd0b356404eb24b50236815a03abdfcf8d280dbedd5c45bf6282	file	85.53%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+a9787581be4c667438a07a060137d6a83abcc2d1e33eef1086622dece56bb48f	file	80.26%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+a9ce91a9a1bcbe2cd2ec023cdf2f302c8ac4f6bfe04e83a9c4edd1c47b53618e	file	80.26%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+b561a5d5bb5cf659f7f23fd833244a61031bc5c5e69972b22f4ff5c495a44203	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+b6214517043d1b0bc41f9754f851a905c5ac4af30e30a7c0725a93bfcc063374	file	80.26%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+bb4d0f67360858a27da21d79bf93b5c628045883712c3c2e10917bebf6771c44	file	77.63%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+c01323aae6c62466bda8e6347e64266c725e6a754b06d4fc4aad1c323d3e21ed	file	79.22%	Ransom:Win32/MedusaLocker.B!MTB	win/malicious_confidence_100% (W)	2
+c632ce1dc34111c66efb817f608bf3b547fc9df5fed478d736b4c53a41ba193e	file	82.89%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+c7ba33d4ef49b5dd0e6ad4a17bb04733db4832c5ef6bc07da51a0a4ffd7d831f	file	81.58%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+c7e71eb5d99cb54f83d3617682805bdf2991cb8fd0b4d34ecc0cf7624aaed6c8	file	84.21%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	0
+d0d8628b44da07aaac7d2bc0287897b2abaeaaeded1d62cdebb6b71078d82e3e	file	81.33%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	2
+d6223b02155d8a84bf1b31ed463092a8d0e3e3cdb5d15a72b5638e69b67c05b7	file	81.58%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	16
+db11260b9eff22f397c4eb6e2f50d02545dbb7440046c6f12dbc68e0f32d57ce	file	77.92%	Ransom:Win32/MedusaLocker.A!MTB	win/malicious_confidence_100% (W)	16
+ddb4776992155b9c5a26b47b53df2fed780c67b45eca5cbdf573e0dc3c20c371	file	84.21%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
+ddca9b2f9b4c20faad500e19ba74c8d478c5be02596e9b1ff5a26ef4396bcd59	file	85.53%	Ransom:Win32/MedusaLocker.AC!MTB	win/malicious_confidence_100% (W)	2
