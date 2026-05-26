@@ -1,20 +1,43 @@
-20.233.161.222
-41.214.31.10
-5.42.236.90
-37.99.175.116
-94.77.230.194
-164.215.47.4
-20.203.50.229
-20.233.62.193
-95.3.40.126
-5.42.234.29
-82.200.133.114
-41.190.155.66
-193.203.12.198
-176.223.173.96
-31.166.29.47
-89.238.156.94
-95.3.35.138
-172.94.125.38
-92.62.121.116
-20.233.90.161
+Image 1
+
+Shows the website “iknowwhatyoudownload.com”.
+It displays downloads linked to a specific IP address (197.253.46.14).
+The page lists files downloaded over torrent (movies/TV content) indicating activity monitored via BitTorrent peer tracking.
+
+Image 2
+
+Shows the “Find out other people’s downloads” feature of the same site.
+It explains a method where users can generate a trackable link.
+If someone clicks the link, the site can monitor/download activity associated with their IP.
+
+Image 3
+
+Demonstrates the link generation process.
+A URL (example: YouTube) is entered and converted into a trackable link.
+This link can be shared to capture or monitor the downloader's IP-related activity.
+
+Image 1:
+Shows a webpage where a user enters a URL (e.g., YouTube) to generate a trackable link for monitoring activity.
+It explains how the link can be shared to observe another person’s download behavior via their IP.
+Image 2:
+Displays the generated tracking link dashboard, instructing to send it to a target and wait for them to click it.
+Once clicked, the site begins capturing and monitoring the target’s torrent downloads.
+Image 3:
+Shows the result of tracking, displaying details of a downloaded file (movie info, size, torrent files).
+It reflects how the platform links torrent activity to a specific tracked user/IP.
+
+Image 1:
+Shows the “About Us / Data Collection” page explaining how the platform collects BitTorrent data and tracks downloads using IP addresses.
+It also describes how the “find other people's downloads” link feature works for monitoring others.
+Image 2:
+Displays the API and cooperation section, offering programmatic access to torrent tracking data and statistics.
+It indicates the platform can share or integrate download tracking insights with external systems or organizations.
+Image 3:
+Shows daily torrent statistics (region-wise) with charts and trending downloaded movies/series.
+It highlights how the platform aggregates global BitTorrent activity trends and popular content.
+
+Image:
+Shows the annual BitTorrent statistics page (2024) displaying global trends for movies and TV shows.
+It highlights categories like most popular movies/TV shows, but currently shows no data available for the selected year.
+
+give me all the above in 3-4 lines only not image wise just in paragraph
