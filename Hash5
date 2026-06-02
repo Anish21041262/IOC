@@ -1,0 +1,68 @@
+8b6c559cd145dca015f4fa06ef1c9cd2446662a1e62eb51ba2c86f4183231ed2	file	0%	undetected	undetected	13
+525417bdd5cdd568605fdbd3dc153bcc20a4715635c02f4965a458c5d008eba9	file	72.37%	Trojan:Win32/Rozena!ic	win/malicious_confidence_100% (W)	24
+e75f2cee98c4b068a2d9e7e77599998196fd718591d3fa23b8f684133d1715c3	file	0%	undetected	undetected	13
+f2aaedb17f96958c045f2911655bfe46f3db21a2de9b0d396936ef6e362fea1b	file	60.53%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+87a7e428d08ecc97201cc8f229877a6202545e562de231a7b4cab4d9b6bbc0f8	file	0%	undetected	undetected	13
+b19ccfa8bc75ce4cf29eb52d4afe79fe7c3819ac08b68bd87b35225a762112ba	file	0%	undetected	undetected	6
+5ed10f2564cd60d02666637e9eac36db36f3a13906b851ec1207c7df620d8970	file	0%	undetected	undetected	13
+de500875266fd18c76959839e8c6b075e4408dcbc0b620f7544f28978b852c1c	file	0%	undetected	undetected	6
+667624b10108137a889f0df8f408395ae332cc8d9ad550632a3501f6debc4f2c	file	60.53%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+da670d5acf3648b0deaecb64710ae2b7fc41fc6ae8ab8343a1415144490a9ae9	file	0%	undetected	undetected	13
+23e5dfaf60c380837beaddaaa9eb550809cd995f2cda99e3fe4ca8b281d770ae	file	63.16%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_90% (W)	24
+f2aaedb17f96958c045f2911655bfe46f3db21a2de9b0d396936ef6e362fea1b	file	60.53%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+7ea706d8da9d68e1214e30c6373713da3585df8a337bc64fcc154fc5363f5f1f	file	0%	undetected	undetected	6
+bf1665c949935f3a741cfe44ab2509ec3751b9384b9eda7fb31c12bfbb2a12ec	file	68.42%	Trojan:Win32/Rozena!ic	win/malicious_confidence_100% (W)	13
+dcadcac4c57df4e31dd7094ae96657f54b22c87233e8277a2c40ba56eafcf548	file	0%	undetected	undetected	6
+12924d7371310c49b1a215019621597926ef3c0b4649352e032a884750fab746	file	63.16%	Trojan:Win32/Malgent!MSR	win/malicious_confidence_60% (W)	22
+752018c117e07f5d58eed35622777e971a5f495184df1c25041ff525ca72acea	file	0%	undetected	undetected	13
+667624b10108137a889f0df8f408395ae332cc8d9ad550632a3501f6debc4f2c	file	60.53%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+c76ba3eb764706a32013007c147309f0be19efff3e6a172393d72d46631f712e	file	0%	undetected	undetected	6
+9bad71077e322031c0cf7f541d64c3fed6b1dc7c261b0b994b63e56bc3215739	file	64.47%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+79b0e6cd366a15848742e26c3396e0b63338ead964710b6572a8582b0530db17	file	60.53%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+3acfe90afa3cbb974e219a5ab8a9ee8c933b397d1c1c97d6e12015726b109f1b	file	0%	undetected	undetected	6
+971ab5d4f0ec58fa1db61622a735a51e14e70ee5d99ab3cd554e0070b248eb1f	file	0%	undetected	undetected	13
+23e5dfaf60c380837beaddaaa9eb550809cd995f2cda99e3fe4ca8b281d770ae	file	63.16%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_90% (W)	24
+4fbe8b69f5c001d00bd39e4fdb3058c96ed796326d6e5e582610d67252d11aba	file	65.79%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+30130ea1ab762c155289a32db810168f59c3d37b69bcbedfd284c4a861d749d6	file	32.89%	Trojan:Win32/Malgent!MSR		24
+d0e1724360e0ae11364d3ac0eb8518ecf5d859128d094e9241d8e6feb43a9f29	file	0%	undetected	undetected	13
+9bad71077e322031c0cf7f541d64c3fed6b1dc7c261b0b994b63e56bc3215739	file	64.47%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+5ef2e36a53c681f6c64cfea16c2ca156cf468579cc96f6c527eca8024bfdc581	file	69.74%	Trojan:Win32/Rozena!ic	win/malicious_confidence_100% (W)	24
+803d0d07d64010b102413da61bbf7b4d378891e2a46848b88ef69ca9357e3721	file	0%	undetected	undetected	13
+667624b10108137a889f0df8f408395ae332cc8d9ad550632a3501f6debc4f2c	file	60.53%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+7c1b20de1f170cfaf3e75ebc7e81860378e353c84469795a162cd3cfd7263ba2	file	0%	undetected	undetected	6
+6a8c39e4c543e94f6e4901d0facee7793f932cd2351259d8054981cf2b4da814	file	0%	undetected	undetected	6
+a180e67fcaf2254b18eafdc95b83038e9a4385b1a5c2651651d9d288fa0500fe	file	0%	undetected	undetected	13
+f1764f8c6fc428237ffafeb08eb0503558c68c6ccf6f2510a2ef8c574ba347e0	file	0%	undetected	undetected	6
+c2a714831d8a7b0223631eda655ce62ff3c262d910c0a2ed67c5ca92ef4447e3	file	0%	undetected	undetected	13
+1ed1b6a06abbab98471d5af33e242acc76d17b41c6e96cce0938a05703b58b91	file	0%	undetected	undetected	13
+12924d7371310c49b1a215019621597926ef3c0b4649352e032a884750fab746	file	63.16%	Trojan:Win32/Malgent!MSR	win/malicious_confidence_60% (W)	22
+79b0e6cd366a15848742e26c3396e0b63338ead964710b6572a8582b0530db17	file	60.53%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+5ef2e36a53c681f6c64cfea16c2ca156cf468579cc96f6c527eca8024bfdc581	file	69.74%	Trojan:Win32/Rozena!ic	win/malicious_confidence_100% (W)	24
+30130ea1ab762c155289a32db810168f59c3d37b69bcbedfd284c4a861d749d6	file	32.89%	Trojan:Win32/Malgent!MSR		24
+4fbe8b69f5c001d00bd39e4fdb3058c96ed796326d6e5e582610d67252d11aba	file	65.79%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+f2aaedb17f96958c045f2911655bfe46f3db21a2de9b0d396936ef6e362fea1b	file	60.53%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+525417bdd5cdd568605fdbd3dc153bcc20a4715635c02f4965a458c5d008eba9	file	72.37%	Trojan:Win32/Rozena!ic	win/malicious_confidence_100% (W)	24
+4fbe8b69f5c001d00bd39e4fdb3058c96ed796326d6e5e582610d67252d11aba	file	65.79%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_100% (W)	24
+6725e38cbb15698e957d50b8bc67bd66ece554bbf6bcb90e72eaf32b1d969e50	file	57.89%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_90% (W)	24
+6725e38cbb15698e957d50b8bc67bd66ece554bbf6bcb90e72eaf32b1d969e50	file	57.89%	Trojan:Win64/Malgent!MSR	win/malicious_confidence_90% (W)	24
+525417bdd5cdd568605fdbd3dc153bcc20a4715635c02f4965a458c5d008eba9	file	72.37%	Trojan:Win32/Rozena!ic	win/malicious_confidence_100% (W)	24
+e6bad7f19d3e76268a09230a123bb47d6c7238b6e007cc45c6bc51bb993e8b46	file	0%			16
+23dfce597a6afef4a1fffd0e7cf89eba31f964f3eabcec1545317efeb25082ed	file	76.32%	Trojan:Win32/Misplice.A!dha	win/malicious_confidence_100% (W)	8
+23dfce597a6afef4a1fffd0e7cf89eba31f964f3eabcec1545317efeb25082ed	file	76.32%	Trojan:Win32/Misplice.A!dha	win/malicious_confidence_100% (W)	8
+afead6dc93f0a64c68b091420d9b884550418e9322109d483eb625e7694f8105	file	0%	undetected	undetected	3
+d9cfc3b7544927a2d5d56f0d4767b88b83a91616aa3b0a4a1846fd7881a4e0f9	file	67.11%	Trojan:Win64/Tnega!MSR	win/malicious_confidence_100% (W)	8
+c0725296e8ab3d9d3c932ecf45588f39ef8fa7a310d31bfd05a061194f8eeb1e	file	0%	undetected	undetected	4
+82a0e722f6746d6f1db58b365c0f15da135bff170d2000858d6e345712ea8732	file	69.74%	HackTool:Win64/CobaltStrike.C	win/malicious_confidence_100% (W)	5
+c6a027d3c7e4734e4cf62741f7fb58f225dcb5ad36af75c6e19a4e3d870294e8	file	0%	undetected	undetected	4
+b16ee7b7cc4fbb390c9ee7a0be1760743b521514d1100dc20cd3972de7d5252d	file	0%	undetected	undetected	4
+94295f90dc5fb03fc47e8e2144774f103b8a29d2ada101173f193cd0c8a38f3d	file	0%	undetected	undetected	4
+95aa15baeef978b99e63a406fa06a1197f6f762047f9729f17bb49b72ead6477	file	66.67%	Trojan:Win64/Tnega!MSR	win/malicious_confidence_100% (W)	0
+a49923faa7d2a2a5e191a0aeca3ffd484655be1fdaaef81b3a85f28ce65859ae	file	67.11%	Trojan:Win32/Misplice.A!dha	win/grayware_confidence_100% (W)	4
+dbb32cb933b6bb25e499185d6db71386a4b5709500d2da92d377171b7ff43294	file	70.67%	Trojan:Win32/Tnega!MSR	win/malicious_confidence_100% (W)	14
+60b4d23d41707ef7fc09e01f1864cb0d8c8a4f5d180fc97e559356780efcd54b	file	51.32%	Backdoor:PHP/Yorcirekriknoslo.RA		6
+66923293d6cd7169d843e26aade13896ce77214fbe256bd925d7b96187b2aa48	file	56.58%	Backdoor:Linux/Winnti.B!dha		7
+21cf3727a9e58f346bcdf039ad23ca8838dae902d0596726332f5815672d22e7	file	56.58%	Trojan:Linux/CoinMiner.C12		7
+7f40b8c0d45d7290fb55552e7da28bec2efa8797ab13662f62bb72c74cb7dc01	file	61.84%	Trojan:Win64/Rozena!MSR	win/malicious_confidence_100% (W)	4
+4b8d15492687e46f939924a3a44b0f9b276229598433fb1380f8b6f46221416d	file	0%			5
+d1871f94304fdd7fea81f9a6a06908eaf8744bc784e698eb36a352f9e2b2049f	file	43.42%			6
+cd335698d4c2422e924fdc67dcceb2037c954d875f03aa298d9fb5f0db851548	file	51.32%	Backdoor:ASP/Webshell.G!MSR	
