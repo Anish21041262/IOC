@@ -9,3 +9,16 @@ thomas.leary@uon.edu.au
 rs532@uon.org.au
 Ishraq.Rahman@uon.edu.au
 Alyssa.Latta@uon.edu.au
+
+
+Scenario 1
+From Name: Crowd Box
+From Email: sender@my.fiveymail.com
+Subject: $500K+ Package Job Opportunity
+Scenario: Spam Email
+
+
+Scenario 2 Malware attachment
+From Name: FedEX Online
+From Email: fedex-online@webnotifications.net 
+Subject: FedEx Shipment 700333134573 Tendered to FedEx
