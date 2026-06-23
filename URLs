@@ -1,7 +1,91 @@
+
+6/8/2026, 2:17:54.224 AM
+0
+0
+traffic:local
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+0
+0
+traffic:local
+90
+-0.1
+51.53
+United Kingdom
+
+
 TableName1
 CommonSecurityLog
 TimeGenerated [UTC]
-2026-06-08T02:17:54.224739Z
+2026-06-08T01:35:33.909073Z
 TenantId
 650d0cf0-e558-4339-9b99-a3da1d6519be
 SourceSystem
@@ -19,11 +103,11 @@ traffic:local deny
 SourceIP
 193.8.187.2
 DestinationIP
-10.191.47.25
+10.191.47.30
 Message
 Connection Failed
 DestinationPort
-2375
+5902
 SourcePort
 51445
 CollectorHostName
@@ -39,7 +123,7 @@ DeviceEventClassID
 LogSeverity
 3
 AdditionalExtensions
-FTNTFGTeventtime=1780884925736621600;FTNTFGTtz=+0300;FTNTFGTlogid=0001000014;FTNTFGTsubtype=local;FTNTFGTlevel=notice;FTNTFGTvd=root;FTNTFGTsrcintfrole=undefined;FTNTFGTdstintfrole=undefined;FTNTFGTsrccountry=Singapore;FTNTFGTdstcountry=Reserved;FTNTFGTaction=deny;FTNTFGTpolicyid=0;FTNTFGTpolicytype=local-in-policy;FTNTFGTtrandisp=noop;FTNTFGTapp=TCP_1024_65535;FTNTFGTduration=0;FTNTFGTsentpkt=0;FTNTFGTrcvdpkt=0;FTNTFGTcrscore=5;FTNTFGTcraction=262144;FTNTFGTcrlevel=low
+FTNTFGTeventtime=1780882385749846900;FTNTFGTtz=+0300;FTNTFGTlogid=0001000014;FTNTFGTsubtype=local;FTNTFGTlevel=notice;FTNTFGTvd=root;FTNTFGTsrcintfrole=undefined;FTNTFGTdstintfrole=undefined;FTNTFGTsrccountry=Singapore;FTNTFGTdstcountry=Reserved;FTNTFGTaction=deny;FTNTFGTpolicyid=0;FTNTFGTpolicytype=local-in-policy;FTNTFGTtrandisp=noop;FTNTFGTapp=TCP_1024_65535;FTNTFGTduration=0;FTNTFGTsentpkt=0;FTNTFGTrcvdpkt=0;FTNTFGTcrscore=5;FTNTFGTcraction=262144;FTNTFGTcrlevel=low
 ApplicationProtocol
 TCP_1024_65535
 DeviceExternalID
@@ -49,10 +133,81 @@ port1
 DeviceOutboundInterface
 root
 ExtID
-1463786551
+1463249583
 ReceivedBytes
 0
 SentBytes
 0
 DeviceEventCategory
 traffic:local
+
+
+
+TenantId
+650d0cf0-e558-4339-9b99-a3da1d6519be
+SourceSystem
+OpsManager
+Protocol
+6
+Type
+CommonSecurityLog
+_ResourceId
+/subscriptions/6ef6c52a-a2a2-412c-972a-d279dfcd1cf2/resourcegroups/rg-sentinel-prod-01/providers/microsoft.compute/virtualmachines/vm-isdb-sylog01
+Computer
+AzUAENGFWAP-FGT-A
+Activity
+traffic:local deny
+SourceIP
+85.11.187.40
+DestinationIP
+10.191.48.4
+Message
+Connection Failed
+DestinationPort
+5001
+IndicatorThreatType
+MaliciousUrl
+MaliciousIP
+85.11.187.40
+SourcePort
+54979
+ThreatSeverity
+5
+CollectorHostName
+vm-isdb-sylog01
+DeviceVendor
+Fortinet
+DeviceProduct
+Fortigate
+DeviceVersion
+v7.4.11
+DeviceEventClassID
+00014
+LogSeverity
+3
+AdditionalExtensions
+FTNTFGTeventtime=1778341659706941300;FTNTFGTtz=+0300;FTNTFGTlogid=0001000014;FTNTFGTsubtype=local;FTNTFGTlevel=notice;FTNTFGTvd=root;FTNTFGTsrcintfrole=undefined;FTNTFGTdstintfrole=undefined;FTNTFGTsrccountry=Poland;FTNTFGTdstcountry=Reserved;FTNTFGTaction=deny;FTNTFGTpolicyid=0;FTNTFGTpolicytype=local-in-policy;FTNTFGTtrandisp=noop;FTNTFGTapp=TCP_1024_65535;FTNTFGTduration=0;FTNTFGTsentpkt=0;FTNTFGTrcvdpkt=0;FTNTFGTcrscore=5;FTNTFGTcraction=262144;FTNTFGTcrlevel=low
+ApplicationProtocol
+TCP_1024_65535
+DeviceExternalID
+FGVM8VTM21000839
+DeviceInboundInterface
+port4
+DeviceOutboundInterface
+vsys_hamgmt
+ExtID
+999947748
+ReceivedBytes
+0
+SentBytes
+0
+DeviceEventCategory
+traffic:local
+ThreatConfidence
+90
+MaliciousIPLongitude
+-0.1
+MaliciousIPLatitude
+51.53
+MaliciousIPCountry
+United Kingdom
