@@ -1,90 +1,58 @@
-3/22/2026, 8:14:16.115 PMCommonSecurityLog6CommonSecurityLog/subscriptions/6ef6c52a-a2a2-412c-972a-d279dfcd1cf2/resourcegroups/rg-sentinel-prod-01/providers/microsoft.compute/virtualmachines/vm-isdb-sylog01AzUAENGFWAP-FGT-Atraffic:local deny45.112.194.8210.191.48.4Connection FailedTableName1CommonSecurityLogTimeGenerated [UTC]2026-03-22T20:14:16.115957ZTenantId650d0cf0-e558-4339-9b99-a3da1d6519beSourceSystemOpsManagerProtocol6TypeCommonSecurityLog_ResourceId/subscriptions/6ef6c52a-a2a2-412c-972a-d279dfcd1cf2/resourcegroups/rg-sentinel-prod-01/providers/microsoft.compute/virtualmachines/vm-isdb-sylog01ComputerAzUAENGFWAP-FGT-AActivitytraffic:local denySourceIP45.112.194.82DestinationIP10.191.48.4MessageConnection FailedDestinationPort5900SourcePort57813CollectorHostNamevm-isdb-sylog01DeviceVendorFortinetDeviceProductFortigateDeviceVersionv7.4.11DeviceEventClassID00014LogSeverity3AdditionalExtensionsFTNTFGTeventtime=1774210427831872000;FTNTFGTtz=+0300;FTNTFGTlogid=0001000014;FTNTFGTsubtype=local;FTNTFGTlevel=notice;FTNTFGTvd=root;FTNTFGTsrcintfrole=undefined;FTNTFGTdstintfrole=undefined;FTNTFGTsrccountry=France;FTNTFGTdstcountry=Reserved;FTNTFGTaction=deny;FTNTFGTpolicyid=0;FTNTFGTpolicytype=local-in-policy;FTNTFGTtrandisp=noop;FTNTFGTapp=TCP_1024_65535;FTNTFGTduration=0;FTNTFGTsentpkt=0;FTNTFGTrcvdpkt=0;FTNTFGTcrscore=5;FTNTFGTcraction=262144;FTNTFGTcrlevel=lowApplicationProtocolTCP_1024_65535DeviceExternalIDFGVM8VTM21000839DeviceInboundInterfaceport4DeviceOutboundInterfacevsys_hamgmtExtID266211554ReceivedBytes0SentBytes0DeviceEventCategorytraffic:localBased on the above log what is the Risk and Impact assessment?
-Based on the FortiGate log, here is a concise SOC-style **Risk and Impact Assessment**:
-
-### Event Summary
-
-* **Source IP:** 45.112.194.82 (Geolocated to France)
-* **Destination IP:** 10.191.48.4 (Internal/Private IP)
-* **Destination Port:** 5900
-* **Protocol:** TCP
-* **Action:** Deny
-* **Policy Type:** local-in-policy
-* **Message:** Connection Failed
-* **Service/Port:** VNC (Port 5900)
-
----
-
-## Risk Assessment
-
-### Observed Activity
-
-An external host (**45.112.194.82**) attempted to establish a TCP connection to **port 5900 (VNC)** on the FortiGate device or protected infrastructure. The connection was blocked by the FortiGate's local-in policy before any session was established.
-
-### Threat Interpretation
-
-This activity is indicative of:
-
-* Internet-wide scanning/reconnaissance.
-* Attempts to identify exposed VNC services.
-* Potential pre-attack enumeration conducted by an attacker.
-* Automated bot scanning for remote administration services.
-
-### Risk Level
-
-**Low Risk (Observed Event)**
-
-**Reason:**
-
-* The firewall successfully denied the connection.
-* No authentication attempt was observed.
-* No successful session establishment.
-* No data transfer occurred (SentBytes=0, ReceivedBytes=0).
-* Duration was 0 seconds.
-
----
-
-## Impact Assessment
-
-### Current Impact
-
-**No Direct Impact Identified**
-
-Evidence:
-
-* Connection blocked by FortiGate (`action=deny`).
-* No packets exchanged.
-* No access to internal systems.
-* No evidence of compromise, malware delivery, or lateral movement.
-
-### Potential Impact (If Allowed)
-
-Had the connection been permitted:
-
-* Exposure of VNC service to the Internet.
-* Unauthorized remote desktop access attempts.
-* Brute-force attacks against VNC credentials.
-* Remote control of affected systems.
-* Data theft or further network compromise.
-
----
-
-## SOC Analyst Conclusion
-
-**Assessment:** External reconnaissance/scanning activity targeting VNC port 5900 was detected and successfully blocked by the FortiGate local-in policy. No successful connection was established and no impact to the environment has been identified.
-
-**Severity:** Informational / Low
-
-**Recommendation:**
-
-* Continue monitoring for repeated attempts from the source IP.
-* Review whether any VNC services are intentionally exposed externally.
-* Investigate further only if:
-
-  * Multiple ports are targeted,
-  * Multiple source IPs target the same asset,
-  * Repeated VNC connection attempts are observed,
-  * Successful connections occur in future logs.
-
-### One-Line SOC Closure Comment
-
-> An external IP (45.112.194.82) attempted to access VNC service (TCP/5900) on an internal asset. The connection was blocked by the FortiGate local-in policy, no session was established, and no impact to the environment was observed. Activity is consistent with internet reconnaissance/scanning.
+TableName1
+CommonSecurityLog
+TimeGenerated [UTC]
+2026-06-08T02:17:54.224739Z
+TenantId
+650d0cf0-e558-4339-9b99-a3da1d6519be
+SourceSystem
+OpsManager
+Protocol
+6
+Type
+CommonSecurityLog
+_ResourceId
+/subscriptions/6ef6c52a-a2a2-412c-972a-d279dfcd1cf2/resourcegroups/rg-sentinel-prod-01/providers/microsoft.compute/virtualmachines/vm-isdb-sylog01
+Computer
+AzUAENGFWAP-FGT-A
+Activity
+traffic:local deny
+SourceIP
+193.8.187.2
+DestinationIP
+10.191.47.25
+Message
+Connection Failed
+DestinationPort
+2375
+SourcePort
+51445
+CollectorHostName
+vm-isdb-sylog01
+DeviceVendor
+Fortinet
+DeviceProduct
+Fortigate
+DeviceVersion
+v7.4.11
+DeviceEventClassID
+00014
+LogSeverity
+3
+AdditionalExtensions
+FTNTFGTeventtime=1780884925736621600;FTNTFGTtz=+0300;FTNTFGTlogid=0001000014;FTNTFGTsubtype=local;FTNTFGTlevel=notice;FTNTFGTvd=root;FTNTFGTsrcintfrole=undefined;FTNTFGTdstintfrole=undefined;FTNTFGTsrccountry=Singapore;FTNTFGTdstcountry=Reserved;FTNTFGTaction=deny;FTNTFGTpolicyid=0;FTNTFGTpolicytype=local-in-policy;FTNTFGTtrandisp=noop;FTNTFGTapp=TCP_1024_65535;FTNTFGTduration=0;FTNTFGTsentpkt=0;FTNTFGTrcvdpkt=0;FTNTFGTcrscore=5;FTNTFGTcraction=262144;FTNTFGTcrlevel=low
+ApplicationProtocol
+TCP_1024_65535
+DeviceExternalID
+FGVM8VTM21000839
+DeviceInboundInterface
+port1
+DeviceOutboundInterface
+root
+ExtID
+1463786551
+ReceivedBytes
+0
+SentBytes
+0
+DeviceEventCategory
+traffic:local
