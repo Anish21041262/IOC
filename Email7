@@ -1,97 +1,98 @@
-154.82.110.5
-115.151.228.92
-116.89.189.19
-117.192.11.154
-115.151.229.16
-115.151.229.14
-115.151.228.64
-115.151.228.4
-92.242.40.21
-81.30.157.43
-79.172.214.11
-115.151.228.146
-109.73.65.32
-103.200.38.236
-45.83.193.150
-46.101.223.115
-45.64.75.134
-45.146.164.160
-5.135.141.139
-80.71.158.44
-5.255.97.172
-87.251.64.150
-207.154.214.136
-194.163.133.36
-109.248.6.130
-104.244.79.6
-178.17.171.102
-185.100.87.202
-185.220.100.242
-185.220.101.39
-213.164.204.146
-89.234.182.139
-45.137.155.55
-80.71.158.12
-62.210.130.250
-45.130.229.168
-49.7.224.217
-86.109.208.194
-113.98.224.68
-113.141.64.14
-124.224.87.29
-218.89.222.71
-120.195.30.152
-154.65.28.250
-150.158.189.96
-1.179.247.182
-171.221.235.43
-61.175.202.154
-142.93.18.229
-101.204.24.28
-221.226.159.22
-167.71.175.10
-64.227.188.251
-41.203.140.114
-34.80.118.173
-45.83.64.70
-197.246.175.231
-223.111.180.119
-218.104.71.166
-210.31.144.181
-45.83.66.182
-101.33.228.224
-111.59.85.209
-45.83.64.214
-45.83.66.91
-45.83.64.2
-45.83.65.191
-45.83.65.170
-134.209.24.42
-138.197.197.97
-150.158.91.179
-107.170.69.93
-185.220.101.154
-185.220.101.40
-185.220.100.251
-185.220.101.188
-185.56.80.65
-140.246.171.141
-79.172.212.132
-159.223.88.139
-64.227.178.55
-185.220.102.245
-45.153.160.138
-185.220.102.253
-162.247.74.74
-221.228.87.37
-137.184.106.119
-159.89.107.117
-109.70.100.26
-138.68.4.129
-143.110.216.17
-137.184.96.227
-143.244.153.32
-178.62.32.211
-137.184.107.41
-159.65.106.65
-111.28.189.51
+IOC	Type	Severity %	Microsoft Detection	CrowdStrike Detection	OTX Pulses
+154.82.110.5	ip_address	0%	undetected	undetected	0
+115.151.228.92	ip_address	0%	undetected	undetected	0
+116.89.189.19	ip_address	0%	undetected	undetected	2
+117.192.11.154	ip_address	2.2%	undetected	undetected	5
+115.151.229.16	ip_address	2.2%	undetected	undetected	0
+115.151.229.14	ip_address	2.2%	undetected	undetected	4
+115.151.228.64	ip_address	2.2%	undetected	undetected	0
+115.151.228.4	ip_address	0%	undetected	undetected	0
+92.242.40.21	ip_address	9.89%	undetected	undetected	0
+81.30.157.43	ip_address	14.29%	undetected	undetected	0
+79.172.214.11	ip_address	12.09%	undetected	undetected	0
+115.151.228.146	ip_address	2.2%	undetected	undetected	0
+109.73.65.32	ip_address	0%	undetected	undetected	0
+103.200.38.236	ip_address	1.1%	undetected	undetected	3
+45.83.193.150	ip_address	10.99%	undetected	undetected	0
+46.101.223.115	ip_address	2.2%	undetected	undetected	0
+45.64.75.134	ip_address	4.4%	undetected	undetected	9
+45.146.164.160	ip_address	13.19%	undetected	undetected	0
+5.135.141.139	ip_address	2.2%	undetected	undetected	0
+80.71.158.44	ip_address	7.69%	undetected	undetected	0
+5.255.97.172	ip_address	8.79%	undetected	undetected	0
+87.251.64.150	ip_address	10.99%	undetected	undetected	0
+207.154.214.136	ip_address	0%	undetected	undetected	0
+194.163.133.36	ip_address	2.2%	undetected	undetected	0
+109.248.6.130	ip_address	0%	undetected	undetected	0
+104.244.79.6	ip_address	7.69%	undetected	undetected	0
+178.17.171.102	ip_address	15.38%	undetected	undetected	0
+185.100.87.202	ip_address	9.89%	undetected	undetected	0
+185.220.100.242	ip_address	15.38%	undetected	undetected	0
+185.220.101.39	ip_address	15.38%	undetected	undetected	0
+213.164.204.146	ip_address	0%	undetected	undetected	0
+89.234.182.139	ip_address	0%	undetected	undetected	0
+45.137.155.55	ip_address	7.69%	undetected	undetected	0
+80.71.158.12	ip_address	10.99%	undetected	undetected	0
+62.210.130.250	ip_address	18.68%	undetected	undetected	0
+45.130.229.168	ip_address	7.69%	undetected	undetected	0
+49.7.224.217	ip_address	1.1%	undetected	undetected	0
+86.109.208.194	ip_address	2.2%	undetected	undetected	0
+113.98.224.68	ip_address	2.2%	undetected	undetected	10
+113.141.64.14	ip_address	4.4%	undetected	undetected	0
+124.224.87.29	ip_address	0%	undetected	undetected	9
+218.89.222.71	ip_address	1.1%	undetected	undetected	0
+120.195.30.152	ip_address	1.1%	undetected	undetected	0
+154.65.28.250	ip_address	2.2%	undetected	undetected	0
+150.158.189.96	ip_address	1.1%	undetected	undetected	14
+1.179.247.182	ip_address	1.1%	undetected	undetected	0
+171.221.235.43	ip_address	2.2%	undetected	undetected	0
+61.175.202.154	ip_address	2.2%	undetected	undetected	10
+142.93.18.229	ip_address	1.1%	undetected	undetected	0
+101.204.24.28	ip_address	1.1%	undetected	undetected	0
+221.226.159.22	ip_address	2.2%	undetected	undetected	0
+167.71.175.10	ip_address	6.59%	undetected	undetected	0
+64.227.188.251	ip_address	0%	undetected	undetected	0
+41.203.140.114	ip_address	2.2%	undetected	undetected	0
+34.80.118.173	ip_address	1.1%	undetected	undetected	0
+45.83.64.70	ip_address	0%	undetected	undetected	0
+197.246.175.231	ip_address	5.49%	undetected	undetected	0
+223.111.180.119	ip_address	5.49%	undetected	undetected	0
+218.104.71.166	ip_address	13.19%	undetected	undetected	0
+210.31.144.181	ip_address	1.1%	undetected	undetected	0
+45.83.66.182	ip_address	0%	undetected	undetected	0
+101.33.228.224	ip_address	2.2%	undetected	undetected	0
+111.59.85.209	ip_address	0%	undetected	undetected	0
+45.83.64.214	ip_address	0%	undetected	undetected	0
+45.83.66.91	ip_address	7.69%	undetected	undetected	0
+45.83.64.2	ip_address	3.3%	undetected	undetected	0
+45.83.65.191	ip_address	1.1%	undetected	undetected	0
+45.83.65.170	ip_address	0%	undetected	undetected	0
+134.209.24.42	ip_address	5.49%	undetected	undetected	50
+138.197.197.97	ip_address	0%	undetected	undetected	4
+150.158.91.179	ip_address	5.49%	undetected	undetected	0
+107.170.69.93	ip_address	8.79%	undetected	undetected	0
+185.220.101.154	ip_address	17.58%	undetected	undetected	0
+185.220.101.40	ip_address	14.29%	undetected	undetected	0
+185.220.100.251	ip_address	15.38%	undetected	undetected	0
+185.220.101.188	ip_address	17.58%	undetected	undetected	0
+185.56.80.65	ip_address	10.99%	undetected	undetected	0
+140.246.171.141	ip_address	1.1%	undetected	undetected	14
+79.172.212.132	ip_address	2.2%	undetected	undetected	0
+159.223.88.139	ip_address	0%	undetected	undetected	0
+64.227.178.55	ip_address	0%	undetected	undetected	0
+185.220.102.245	ip_address	6.59%	undetected	undetected	0
+45.153.160.138	ip_address	3.3%	undetected	undetected	0
+185.220.102.253	ip_address	12.09%	undetected	undetected	0
+162.247.74.74	ip_address	7.69%	undetected	undetected	0
+221.228.87.37	ip_address	2.2%	undetected	undetected	0
+137.184.106.119	ip_address	3.3%	undetected	undetected	0
+159.89.107.117	ip_address	0%	undetected	undetected	0
+109.70.100.26	ip_address	3.3%	undetected	undetected	0
+138.68.4.129	ip_address	0%	undetected	undetected	0
+143.110.216.17	ip_address	8.79%	undetected	undetected	33
+137.184.96.227	ip_address	3.3%	undetected	undetected	39
+143.244.153.32	ip_address	0%	undetected	undetected	0
+178.62.32.211	ip_address	2.2%	undetected	undetected	19
+137.184.107.41	ip_address	2.2%	undetected	undetected	0
+159.65.106.65	ip_address	1.1%	undetected	undetected	0
+111.28.189.51	ip_address	4.4%	undetected	undetected	19
