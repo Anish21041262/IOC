@@ -1,22 +1,36 @@
-External IPs 85.11.187.40 and 193.8.187.2 performed reconnaissance against FortiGate management interfaces by probing ports associated with MySQL (3306), web/application management (5001), Docker Remote API (2375/2376), and VNC remote desktop services (5900, 5902, 5904, 5905, 5910). The activity is consistent with automated service enumeration intended to identify exposed administrative services. All connection attempts were blocked by FortiGate Local-In Policies (traffic:local deny), no sessions were established, and no data was exchanged. Therefore, the observed activity had no impact on the environment and is assessed as unsuccessful reconnaissance.
+### Scope and Nature of the Detected Activity
 
-Probable attacker intent
+The detected activity consists of **external reconnaissance and service enumeration attempts** originating from IP addresses **85.11.187.40** and **193.8.187.2** against FortiGate management interfaces. The source IPs probed multiple ports commonly associated with administrative, database, container management, and remote access services, including **MySQL (3306)**, **web/application management interfaces (5001)**, **Docker Remote API (2375/2376)**, and **VNC services (5900–5910)**.
 
-1. IP: 85.11.187.40
-The objective of this IP appears to be identifying exposed database and application management services, specifically MySQL (3306) and admin portals (5001). This type of probing is typically performed to:
+The activity was limited to **connection attempts and port probing**, indicative of the reconnaissance phase of the cyber kill chain. No successful authentication, session establishment, exploitation, or data transfer was observed. All inbound connections were blocked by **FortiGate Local-In Policies (traffic:local deny)**, preventing access to the targeted services.
 
-Detect weakly secured or exposed database services
-Attempt credential brute-force attacks on MySQL
-Exploit misconfigured web or admin interfaces
-Gain initial access to internal applications for data extraction or lateral movement
+### Threat Interpretation
 
-2. IP: 193.8.187.2
-This IP demonstrates broader infrastructure and remote access service enumeration, targeting Docker (2375/2376), VNC (5900–5910 range), and additional management/custom ports (4244). The likely objectives include:
+The observed behavior is consistent with **automated internet-wide scanning and reconnaissance activity** conducted by threat actors seeking exposed administrative services and misconfigured infrastructure. The scanning patterns suggest attempts to identify:
 
-Discovering exposed remote desktop (VNC) services for direct GUI access
-Identifying Docker APIs that could allow container takeover and host compromise
-Locating misconfigured internal services for remote code execution or persistence
-Establishing a foothold for deeper network penetration or botnet recruitment
-Overall interpretation
+* Exposed database services that could be targeted for credential attacks or unauthorized access.
+* Administrative web interfaces that may contain vulnerabilities or weak authentication mechanisms.
+* Docker APIs that could enable container compromise and host-level access if improperly secured.
+* VNC remote desktop services that could provide direct graphical access to systems through brute-force attacks or exploitation.
 
-Both IPs are part of automated or semi-automated scanning infrastructure commonly used in early-stage attack chains. Their goal is not immediate exploitation, but discovery of vulnerable entry points that can be exploited in later attack phases such as brute force, exploitation, or credential theft.
+Based on the targeted ports and scanning behavior, the activity appears to be part of an **initial access discovery effort** rather than an active exploitation attempt. Such reconnaissance is commonly performed by opportunistic threat actors, botnets, and vulnerability scanning infrastructure to identify potential attack surfaces for future exploitation.
+
+### Impact Assessment
+
+* **Observed Impact:** None.
+* **Access Achieved:** No.
+* **Data Exposure:** None.
+* **System Compromise:** None.
+* **Business Impact:** None.
+
+All connection attempts were successfully blocked by existing FortiGate security controls, and no evidence indicates that the attackers gained access to any internal resources. The activity is therefore assessed as **unsuccessful reconnaissance with no impact to the environment**.
+
+### Risk Rating
+
+**Current Risk:** Low
+
+Although the activity itself did not result in compromise, it demonstrates that the organization's public-facing infrastructure is visible to external scanners. Continued monitoring is recommended to identify any escalation from reconnaissance to exploitation attempts, credential attacks, or repeated targeting from the same infrastructure.
+
+### Analyst Conclusion
+
+The event represents **unsuccessful external reconnaissance targeting FortiGate management interfaces and administrative services**. The scanning activity aligns with common threat actor tactics for identifying exposed services that may be leveraged for future attacks. Existing FortiGate Local-In Policies effectively prevented access, and no further malicious activity or compromise was observed. The event can be categorized as **blocked reconnaissance/service enumeration with no security impact**.
