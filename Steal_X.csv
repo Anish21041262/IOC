@@ -1,17 +1,1 @@
-Researchers have found that REF6045 as an active operator assisted banking fraud campaign targeting customers of banks, fintech companies, payment processors, and cryptocurrency exchanges. 
-
-The attack begins with ClickFix style fake CAPTCHA pages that trick victims into running a malicious command, leading to the download and execution of the SCMBANKER toolkit. 
-
-Once executed, the malware displays a fake Windows Update screen, repeatedly requests administrator privileges, and limits mouse movement to distract the victim while additional components are installed. 
-
-SCMBANKER downloads its supporting components and establishes persistence through Registry Run keys and Startup Folder entries, allowing it to remain active after system restarts. 
-
-The toolkit communicates with a command and control server to collect system information, monitor banking activity, and capture screenshots, giving operators visibility into the victim's actions. 
-
-When victims access targeted banking services, the malware presents fake bank security alerts and support messages designed to create a sense of urgency, prompting them to engage with attacker controlled operators and facilitating vishing based fraud. 
-
-The malware continuously monitors browser activity and can redirect selected victims to attacker controlled phishing websites designed to capture banking related information. 
-
-The toolkit monitors the clipboard for copied bank account and payment card details and can replace them with attacker controlled values, redirecting financial transactions to accounts controlled by the threat actor. 
-
-To maintain long term access, the attackers deploy a legitimate remote access tool and use additional capabilities for keystroke monitoring and remote command execution, enabling ongoing banking fraud operations. 
+Researchers identified **REF6045** as an active operator-assisted banking fraud campaign that uses ClickFix fake CAPTCHA pages to deploy the **SCMBANKER** toolkit, targeting customers of banks, fintech firms, payment processors, and cryptocurrency exchanges. The malware establishes persistence, monitors banking activity, captures credentials and financial data, and enables vishing, phishing, clipboard manipulation, and remote access to facilitate ongoing financial fraud.
